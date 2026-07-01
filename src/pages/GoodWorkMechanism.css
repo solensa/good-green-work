@@ -1,0 +1,168 @@
+.mechanism-page {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.mechanism-header {
+  margin-bottom: 3rem;
+}
+
+.mechanism-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.mechanism-header p {
+  color: #64748b;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.mechanism-diagram-container {
+  position: relative;
+  width: 100%;
+  /* We will need some padding on the sides for the arrows to route around */
+  padding: 0 4rem;
+  box-sizing: border-box;
+}
+
+/* Flex rows */
+.mech-row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-bottom: 2rem;
+  gap: 2rem;
+  position: relative;
+  z-index: 2; /* keep boxes above svg arrows */
+}
+
+.mech-row.row-1 {
+  justify-content: flex-end;
+}
+
+/* Diagram Boxes */
+.mech-box {
+  background: white;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+  width: 320px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.mech-box-title {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #1e293b;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.mech-box-subtitle {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #334155;
+  margin: 0;
+}
+
+.mech-box-examples {
+  font-size: 0.7rem;
+  color: #475569;
+  margin: 0;
+}
+
+/* Colors */
+.bg-mint { background-color: #A3E4D7; }
+.bg-blue { background-color: #A9BCE1; }
+.bg-purple { background-color: #C39BD3; }
+.bg-yellow { background-color: #F4D03F; } /* or #F7DC6F */
+.bg-yellow-light { background-color: #F9E79F; }
+.bg-orange { background-color: #F0B27A; }
+.bg-tan { background-color: #D7BDE2; } /* Wait tan is different */
+.bg-tan { background-color: #D3B88C; }
+.bg-gray-light { background-color: #F2F3F4; border: 1px solid #e2e8f0; }
+.border-dashed { border: 2px dashed #475569; background-color: white; box-shadow: none; }
+
+/* The container for Experienced State */
+.experienced-state-container {
+  background-color: #F3F4F6;
+  padding: 1.5rem;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 700px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  z-index: 2;
+}
+
+.experienced-state-title {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: #475569;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.experienced-state-boxes {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.experienced-state-boxes .mech-box {
+  width: 300px;
+}
+
+/* SVG Overlay for arrows */
+.mechanism-svg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.arrow-path {
+  fill: none;
+  stroke: #1e293b;
+  stroke-width: 1.5;
+}
+
+.arrow-path.dashed {
+  stroke-dasharray: 4 4;
+}
+
+.arrow-head {
+  fill: #1e293b;
+}
+
+/* Feedback loop text labels */
+.loop-label {
+  position: absolute;
+  font-size: 0.65rem;
+  font-style: italic;
+  color: #64748b;
+  background: white;
+  padding: 2px 4px;
+  z-index: 3;
+}

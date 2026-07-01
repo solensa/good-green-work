@@ -1,0 +1,74 @@
+.page-header {
+  position: relative;
+  z-index: 20; /* Ensures the title stays above the diagram when pulled up */
+}
+
+.flywheel-stack-container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: -25% auto 2rem auto;
+  aspect-ratio: 1; /* Assumes the SVGs are square/circular */
+}
+
+.fw-layer {
+  position: absolute;
+}
+
+/* Base layers */
+.fw3 {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fw2 {
+  z-index: 2;
+  top: 28.5%;       /* Budged up slightly from 29.375% */
+  left: 29.375%;    /* 376 / 1280 */
+  width: 41.25%;    /* 528 / 1280 */
+  height: 41.25%;   /* 528 / 1280 */
+  transform-origin: 50% 52.1212%; 
+  /* JS will control transform directly */
+}
+
+.fw4 {
+  z-index: 3;
+  top: 28.5%;       
+  left: 29.375%;    
+  width: 41.25%;    
+  height: 41.25%;   
+}
+
+.fw1 {
+  z-index: 0;
+  top: 43.34843%;   /* 554.86 / 1280 */
+  left: 43.34843%;  /* 554.86 / 1280 */
+  width: 13.30625%; /* 170.32 / 1280 */
+  height: 13.30625%;/* 170.32 / 1280 */
+  transform-origin: center center;
+  /* JS will control transform directly */
+}
+
+.fw0 {
+  z-index: 5;
+  top: 43.34843%;   
+  left: 43.34843%;  
+  width: 13.30625%; 
+  height: 13.30625%;
+  /* No animations on this layer */
+}
+
+/* Invisible hover target that matches fw2 bounds */
+.fw-hover-target {
+  position: absolute;
+  z-index: 10;
+  top: 29.375%;
+  left: 29.375%;
+  width: 41.25%;
+  height: 41.25%;
+  border-radius: 50%; /* So corners don't trigger hover */
+  cursor: pointer;
+}
