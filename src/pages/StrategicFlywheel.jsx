@@ -39,8 +39,8 @@ const StrategicFlywheel = () => {
       if (isHovered) {
         wasHoveredRef.current = true;
         
-        // 1. Accelerate scale progress over 15 seconds
-        scaleProgressRef.current = Math.min(1, scaleProgressRef.current + (deltaTime / 15000));
+        // 1. Accelerate scale progress over 25 seconds
+        scaleProgressRef.current = Math.min(1, scaleProgressRef.current + (deltaTime / 25000));
         
         // 2. Accelerate velocity progress over 5 seconds
         velocityProgressRef.current = Math.min(1, velocityProgressRef.current + (deltaTime / 5000));
@@ -79,9 +79,9 @@ const StrategicFlywheel = () => {
         velocityProgressRef.current = 0;
       }
       
-      // Calculate actual scale using quadratic ease-in
+      // Calculate actual scale using cubic ease-in for a much slower start
       const targetScale = 20;
-      const easeScale = scaleProgressRef.current * scaleProgressRef.current;
+      const easeScale = Math.pow(scaleProgressRef.current, 3);
       scaleRef.current = 1 + (targetScale - 1) * easeScale;
 
       // Apply transforms directly to the DOM for 60fps buttery smoothness
