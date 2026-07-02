@@ -33,7 +33,7 @@ const Sidebar = () => {
           to="/mechanism" 
           className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
         >
-          <span className="nav-icon"><img src={mechanismIcon} alt="Mechanism" style={{ width: '100%', height: '100%' }} /></span>
+          <span className="nav-icon"><img src={mapIcon} alt="Mechanism" style={{ width: '100%', height: '100%' }} /></span>
           Good Work Mechanism
         </NavLink>
       </nav>

@@ -157,7 +157,7 @@ const GoodWorkMechanism = () => {
             <div className="loop-label" style={{ top: (coords.workerChar.left.y + coords.behav.left.y)/2, left: coords.workerChar.left.x - 80 - 65, transform: 'rotate(-90deg)' }}>
               longer-term feedback loop
             </div>
-            <div className="loop-label" style={{ top: coords.behav.bottom.y + 10, left: coords.workChar.right.x - 20 }}>
+            <div className="loop-label" style={{ top: coords.behav.bottom.y + 22, left: (coords.behav.bottom.x + 20 + coords.workChar.right.x + 40) / 2, transform: 'translateX(-50%)' }}>
               longer-term feedback loop
             </div>
             <div className="loop-label" style={{ top: (coords.interp.left.y + coords.behav.left.y)/2 - 10, left: coords.expState.left.x - 40 - 65, transform: 'rotate(-90deg)' }}>
