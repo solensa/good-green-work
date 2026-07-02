@@ -60,7 +60,8 @@
   padding: 1rem;
   border-radius: 4px;
   text-align: center;
-  width: 100%;
+  width: 280px; /* Fixed uniform width */
+  margin: 0 auto; /* Center in grid cell */
   height: 160px; /* Forced uniform height for all boxes */
   box-sizing: border-box;
   display: flex;
@@ -73,7 +74,6 @@
 }
 
 .examples-btn {
-  margin-top: auto; /* Push to bottom */
   background: none;
   border: 1px solid rgba(0,0,0,0.2);
   border-radius: 4px;
@@ -228,6 +228,7 @@
 
 .mech-modal-content h3 {
   margin-top: 0;
+  margin-bottom: 1.5rem;
   font-size: 1.1rem;
   color: #1e293b;
 }
