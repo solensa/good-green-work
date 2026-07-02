@@ -168,9 +168,7 @@ const GoodWorkMechanism = () => {
 
 
         <div className="mech-row">
-          <div />
-          <div />
-          <div className="mech-box bg-mint" ref={refs.env}>
+          <div style={{ gridColumn: 3 }} className="mech-box bg-mint" ref={refs.env}>
             <p className="mech-box-title">WORK ENVIRONMENT</p>
             <p className="mech-box-subtitle">Broad setting that shapes the work</p>
             <button className="examples-btn" onClick={() => setActiveModal({ title: 'WORK ENVIRONMENT', examples: 'e.g. onsite | offsite | office' })}>
@@ -206,15 +204,13 @@ const GoodWorkMechanism = () => {
         </div>
 
         <div className="mech-row" style={{ marginTop: '4.5rem' }}>
-          <div />
-          <div className="mech-box bg-purple" ref={refs.interp}>
+          <div style={{ gridColumn: 2 }} className="mech-box bg-purple" ref={refs.interp}>
             <p className="mech-box-title">WORKER INTERPRETATION / EXPERIENCE</p>
             <p className="mech-box-subtitle">How you interpret work (extrinsic → intrinsic)</p>
             <button className="examples-btn" onClick={() => setActiveModal({ title: 'WORKER INTERPRETATION / EXPERIENCE', examples: 'e.g. fair / unfair | controllable / uncontrollable | meaningful / pointless | threatening / challenging' })}>
               EXAMPLES
             </button>
           </div>
-          <div />
         </div>
 
         <div className="mech-row-single">
@@ -240,15 +236,13 @@ const GoodWorkMechanism = () => {
         </div>
 
         <div className="mech-row">
-          <div />
-          <div className="mech-box bg-tan" ref={refs.behav}>
+          <div style={{ gridColumn: 2 }} className="mech-box bg-tan" ref={refs.behav}>
             <p className="mech-box-title">BEHAVIOUR / OUTCOMES</p>
             <p className="mech-box-subtitle">What you do and what follows</p>
             <button className="examples-btn" onClick={() => setActiveModal({ title: 'BEHAVIOUR / OUTCOMES', examples: 'e.g. wellbeing | productivity | green results | safety | effort | persistence | errors | rework | learning | absence' })}>
               EXAMPLES
             </button>
           </div>
-          <div />
         </div>
 
       </div>

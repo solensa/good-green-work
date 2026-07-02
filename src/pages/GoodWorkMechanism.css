@@ -191,7 +191,6 @@
   fill: #1e293b;
 }
 
-/* Feedback loop text labels */
 .loop-label {
   position: absolute;
   font-size: 0.65rem;
@@ -200,6 +199,7 @@
   background: white;
   padding: 2px 4px;
   z-index: 3;
+  white-space: nowrap;
 }
 
 /* Modal styles */
