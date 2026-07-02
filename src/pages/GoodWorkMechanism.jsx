@@ -63,6 +63,11 @@ const GoodWorkMechanism = () => {
   };
 
   const [coords, setCoords] = useState({});
+  const [expandedBoxes, setExpandedBoxes] = useState({});
+
+  const toggleBox = (key) => {
+    setExpandedBoxes(prev => ({ ...prev, [key]: !prev[key] }));
+  };
 
   useEffect(() => {
     const updateCoords = () => {
@@ -88,16 +93,16 @@ const GoodWorkMechanism = () => {
     window.addEventListener('resize', updateCoords);
     // Slight delay to ensure fonts/layout are fully rendered
     setTimeout(updateCoords, 100);
-    setTimeout(updateCoords, 500);
+    setTimeout(updateCoords, 400);
 
     return () => window.removeEventListener('resize', updateCoords);
-  }, []);
+  }, [expandedBoxes]);
 
   return (
     <div className="page-container fade-in">
       <header className="page-header">
         <h1>Conceptual Map of the Good Work Mechanism</h1>
-        <p>Translating good-work dimensions into worker experience and measurable outcomes.</p>
+        <p>The goal is to have all aspects of the conceptual map feed into the improvement of the work environment and characteristics.</p>
       </header>
 
       <div className="mechanism-diagram-container" ref={containerRef}>
@@ -144,10 +149,10 @@ const GoodWorkMechanism = () => {
               <Arrow start={coords.expState.bottom} end={coords.behav.top} startSide="bottom" endSide="top" />
               
               {/* Longer-term feedback loop (Left: Behav -> Worker Char) */}
-              <Arrow start={coords.behav.left} end={coords.workerChar.left} startSide="left" endSide="left" pathOffset={80} />
+              <path className="arrow-path" d={`M ${coords.behav.bottom.x - 20} ${coords.behav.bottom.y} L ${coords.behav.bottom.x - 20} ${coords.behav.bottom.y + 30} L ${coords.workerChar.left.x - 80} ${coords.behav.bottom.y + 30} L ${coords.workerChar.left.x - 80} ${coords.workerChar.left.y} L ${coords.workerChar.left.x - 5} ${coords.workerChar.left.y}`} markerEnd="url(#arrowhead)" />
               
               {/* Longer-term feedback loop (Right: Behav -> Env) */}
-              <Arrow start={coords.behav.right} end={coords.env.right} startSide="right" endSide="right" pathOffset={80} />
+              <path className="arrow-path" d={`M ${coords.behav.bottom.x + 20} ${coords.behav.bottom.y} L ${coords.behav.bottom.x + 20} ${coords.behav.bottom.y + 30} L ${Math.max(coords.behav.right.x, coords.env.right.x) + 80} ${coords.behav.bottom.y + 30} L ${Math.max(coords.behav.right.x, coords.env.right.x) + 80} ${coords.env.right.y} L ${coords.env.right.x + 5} ${coords.env.right.y}`} markerEnd="url(#arrowhead)" />
               
               {/* Branch to Work Char */}
               <path className="arrow-path" d={`M ${Math.max(coords.behav.right.x, coords.env.right.x) + 80} ${coords.workChar.right.y} L ${coords.workChar.right.x + 5} ${coords.workChar.right.y}`} markerEnd="url(#arrowhead)" />
@@ -164,10 +169,10 @@ const GoodWorkMechanism = () => {
             <div className="loop-label" style={{ top: (coords.workerChar.left.y + coords.behav.left.y)/2, left: Math.min(coords.workerChar.left.x, coords.behav.left.x) - 100, transform: 'rotate(-90deg)' }}>
               longer-term feedback loop
             </div>
-            <div className="loop-label" style={{ top: coords.behav.bottom.y + 10, left: coords.behav.right.x + 40 }}>
+            <div className="loop-label" style={{ top: coords.behav.bottom.y + 10, left: coords.behav.right.x + 20 }}>
               longer-term feedback loop
             </div>
-            <div className="loop-label" style={{ top: (coords.expState.left.y + coords.interp.left.y)/2 - 10, left: coords.expState.left.x - 140 }}>
+            <div className="loop-label" style={{ top: (coords.expState.left.y + coords.interp.left.y)/2 - 10, left: coords.expState.left.x - 65, transform: 'rotate(-90deg)' }}>
               shorter-term feedback loop
             </div>
           </>
@@ -177,32 +182,27 @@ const GoodWorkMechanism = () => {
         <div className="mech-row">
           <div />
           <div />
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', justifyContent: 'flex-end' }}>
-            <p style={{ fontSize: '0.65rem', fontStyle: 'italic', color: '#64748b', margin: 0, textAlign: 'center' }}>
-              The goal is to have all aspects of the conceptual map feed into the<br/>improvement of the work environment and characteristics
-            </p>
-            <div className="mech-box bg-mint" ref={refs.env}>
-              <p className="mech-box-title">WORK ENVIRONMENT</p>
-              <p className="mech-box-subtitle">Broad setting that shapes the work</p>
-              <p className="mech-box-examples">e.g. onsite | offsite | office</p>
-            </div>
+          <div className={`mech-box bg-mint ${expandedBoxes.env ? 'expanded' : ''}`} ref={refs.env} onClick={() => toggleBox('env')}>
+            <p className="mech-box-title">WORK ENVIRONMENT</p>
+            <p className="mech-box-subtitle">Broad setting that shapes the work</p>
+            <p className="mech-box-examples">e.g. onsite | offsite | office</p>
           </div>
         </div>
 
         <div className="mech-row">
-          <div className="mech-box bg-blue" ref={refs.workerChar}>
+          <div className={`mech-box bg-blue ${expandedBoxes.workerChar ? 'expanded' : ''}`} ref={refs.workerChar} onClick={() => toggleBox('workerChar')}>
             <p className="mech-box-title">WORKER CHARACTERISTICS</p>
             <p className="mech-box-subtitle">What you consciously/unconsciously bring to work (explicit/implicit)</p>
             <p className="mech-box-examples">e.g. personality | trait domains, aspects, facets | needs | motives | values | fitness | age | health | experience | tacit knowledge</p>
           </div>
           
-          <div className="mech-box border-dashed" ref={refs.align}>
+          <div className={`mech-box border-dashed ${expandedBoxes.align ? 'expanded' : ''}`} ref={refs.align} onClick={() => toggleBox('align')}>
             <p className="mech-box-title">WORKER-WORK ALIGNMENT</p>
             <p className="mech-box-subtitle">The match or mismatch (fit) between work & worker</p>
             <p className="mech-box-examples">e.g. needs-supplies | demands-abilities | values-identity</p>
           </div>
 
-          <div className="mech-box bg-mint" ref={refs.workChar}>
+          <div className={`mech-box bg-mint ${expandedBoxes.workChar ? 'expanded' : ''}`} ref={refs.workChar} onClick={() => toggleBox('workChar')}>
             <p className="mech-box-title">WORK CHARACTERISTICS</p>
             <p className="mech-box-subtitle">Designable features of roles, work & tasks</p>
             <p className="mech-box-examples">e.g. workload | autonomy | support | safety | monitoring | goals | salary</p>
@@ -211,7 +211,7 @@ const GoodWorkMechanism = () => {
 
         <div className="mech-row">
           <div />
-          <div className="mech-box bg-purple" ref={refs.interp}>
+          <div className={`mech-box bg-purple ${expandedBoxes.interp ? 'expanded' : ''}`} ref={refs.interp} onClick={() => toggleBox('interp')}>
             <p className="mech-box-title">WORKER INTERPRETATION / EXPERIENCE</p>
             <p className="mech-box-subtitle">How you interpret work (extrinsic → intrinsic)</p>
             <p className="mech-box-examples">e.g. fair / unfair | controllable / uncontrollable | meaningful / pointless | threatening / challenging</p>
@@ -223,12 +223,12 @@ const GoodWorkMechanism = () => {
           <div className="experienced-state-container" ref={refs.expState}>
             <p className="experienced-state-title">EXPERIENCED STATE</p>
             <div className="experienced-state-boxes">
-              <div className="mech-box bg-yellow-light" ref={refs.motiv}>
+              <div className={`mech-box bg-yellow-light ${expandedBoxes.motiv ? 'expanded' : ''}`} ref={refs.motiv} onClick={() => toggleBox('motiv')}>
                 <p className="mech-box-title">MOTIVATIONAL-AFFECTIVE STATE</p>
                 <p className="mech-box-subtitle">The experienced state of motivation & needs</p>
                 <p className="mech-box-examples">e.g. energetic arousal | tense arousal | engagement | boredom | stress | confidence | frustration</p>
               </div>
-              <div className="mech-box bg-orange" ref={refs.physio}>
+              <div className={`mech-box bg-orange ${expandedBoxes.physio ? 'expanded' : ''}`} ref={refs.physio} onClick={() => toggleBox('physio')}>
                 <p className="mech-box-title">PHYSIOLOGICAL STATE</p>
                 <p className="mech-box-subtitle">Your physical state during work</p>
                 <p className="mech-box-examples">e.g. autonomic arousal | cardiovascular load | fatigue | musculoskeletal strain | heat strain | recovery</p>
@@ -239,7 +239,7 @@ const GoodWorkMechanism = () => {
 
         <div className="mech-row">
           <div />
-          <div className="mech-box bg-tan" ref={refs.behav}>
+          <div className={`mech-box bg-tan ${expandedBoxes.behav ? 'expanded' : ''}`} ref={refs.behav} onClick={() => toggleBox('behav')}>
             <p className="mech-box-title">BEHAVIOUR / OUTCOMES</p>
             <p className="mech-box-subtitle">What you do and what follows</p>
             <p className="mech-box-examples">e.g. wellbeing | productivity | green results | safety | effort | persistence | errors | rework | learning | absence</p>
