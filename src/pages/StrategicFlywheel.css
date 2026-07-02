@@ -7,7 +7,7 @@
   position: relative;
   width: 100%;
   max-width: 1000px;
-  margin: -25% auto 2rem auto;
+  margin: -10% auto 2rem auto;
   aspect-ratio: 1; /* Assumes the SVGs are square/circular */
 }
 
