@@ -61,26 +61,36 @@
   border-radius: 4px;
   text-align: center;
   width: 100%;
-  height: 110px; /* Fixed height when collapsed */
+  height: 100%; /* Stretch to fill grid cell */
+  min-height: 140px; /* Give it more room so it's not squished */
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 0.5rem;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   position: relative;
+}
+
+.examples-btn {
+  margin-top: auto; /* Push to bottom */
+  background: none;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.65rem;
+  color: #475569;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
-.mech-box.expanded {
-  height: auto;
-  min-height: 110px;
-  justify-content: flex-start;
-}
-
-.mech-box:hover {
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+.examples-btn:hover {
+  background: rgba(0,0,0,0.05);
+  color: #1e293b;
 }
 
 .mech-box-title {
@@ -99,17 +109,10 @@
 }
 
 .mech-box-examples {
-  font-size: 0.7rem;
-  color: #475569;
+  font-size: 0.75rem;
+  color: #334155;
   margin: 0;
-  display: none;
-  margin-top: 0.5rem;
-  padding-top: 0.5rem;
-  border-top: 1px solid rgba(0,0,0,0.1);
-}
-
-.mech-box.expanded .mech-box-examples {
-  display: block;
+  line-height: 1.4;
 }
 
 /* Colors */
@@ -158,6 +161,7 @@
 
 .experienced-state-boxes .mech-box {
   width: 100%;
+  height: 100%; /* Force same height */
 }
 
 /* SVG Overlay for arrows */
@@ -194,4 +198,50 @@
   background: white;
   padding: 2px 4px;
   z-index: 3;
+}
+
+/* Modal styles */
+.mech-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.mech-modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.mech-modal-content h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #1e293b;
+}
+
+.mech-modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  color: #64748b;
+}
+.mech-modal-close:hover {
+  color: #0f172a;
 }

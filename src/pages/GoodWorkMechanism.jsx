@@ -63,11 +63,7 @@ const GoodWorkMechanism = () => {
   };
 
   const [coords, setCoords] = useState({});
-  const [expandedBoxes, setExpandedBoxes] = useState({});
-
-  const toggleBox = (key) => {
-    setExpandedBoxes(prev => ({ ...prev, [key]: !prev[key] }));
-  };
+  const [activeModal, setActiveModal] = useState(null);
 
   useEffect(() => {
     const updateCoords = () => {
@@ -96,7 +92,7 @@ const GoodWorkMechanism = () => {
     setTimeout(updateCoords, 400);
 
     return () => window.removeEventListener('resize', updateCoords);
-  }, [expandedBoxes]);
+  }, []);
 
   return (
     <div className="page-container fade-in">
@@ -130,7 +126,6 @@ const GoodWorkMechanism = () => {
               <Arrow start={coords.align.right} end={coords.workChar.left} startSide="right" endSide="left" dashed />
               
               {/* Worker Char -> Interp */}
-              <Arrow start={coords.workerChar.bottom} end={{x: coords.workerChar.bottom.x, y: coords.interp.top.y}} startSide="bottom" endSide="top" />
               <path className="arrow-path" d={`M ${coords.workerChar.bottom.x} ${coords.workerChar.bottom.y} L ${coords.workerChar.bottom.x} ${coords.interp.top.y - 15} L ${coords.interp.left.x - 5} ${coords.interp.top.y - 15}`} markerEnd="url(#arrowhead)" />
 
               {/* Align -> Interp */}
@@ -157,8 +152,8 @@ const GoodWorkMechanism = () => {
               {/* Branch to Work Char */}
               <path className="arrow-path" d={`M ${Math.max(coords.behav.right.x, coords.env.right.x) + 80} ${coords.workChar.right.y} L ${coords.workChar.right.x + 5} ${coords.workChar.right.y}`} markerEnd="url(#arrowhead)" />
               
-              {/* Shorter-term feedback loop (Left: Exp State -> Interp) */}
-              <Arrow start={coords.expState.left} end={coords.interp.left} startSide="left" endSide="left" pathOffset={40} />
+              {/* Shorter-term feedback loop (Left: Behav -> Interp) */}
+              <Arrow start={coords.behav.left} end={coords.interp.left} startSide="left" endSide="left" pathOffset={40} />
             </>
           )}
         </svg>
@@ -166,13 +161,13 @@ const GoodWorkMechanism = () => {
         {/* Labels for loops */}
         {coords.behav && (
           <>
-            <div className="loop-label" style={{ top: (coords.workerChar.left.y + coords.behav.left.y)/2, left: Math.min(coords.workerChar.left.x, coords.behav.left.x) - 100, transform: 'rotate(-90deg)' }}>
+            <div className="loop-label" style={{ top: (coords.workerChar.left.y + coords.behav.left.y)/2, left: coords.workerChar.left.x - 80 - 65, transform: 'rotate(-90deg)' }}>
               longer-term feedback loop
             </div>
             <div className="loop-label" style={{ top: coords.behav.bottom.y + 10, left: coords.behav.right.x + 20 }}>
               longer-term feedback loop
             </div>
-            <div className="loop-label" style={{ top: (coords.expState.left.y + coords.interp.left.y)/2 - 10, left: coords.expState.left.x - 65, transform: 'rotate(-90deg)' }}>
+            <div className="loop-label" style={{ top: (coords.interp.left.y + coords.behav.left.y)/2 - 10, left: Math.min(coords.behav.left.x, coords.interp.left.x) - 40 - 65, transform: 'rotate(-90deg)' }}>
               shorter-term feedback loop
             </div>
           </>
@@ -182,39 +177,49 @@ const GoodWorkMechanism = () => {
         <div className="mech-row">
           <div />
           <div />
-          <div className={`mech-box bg-mint ${expandedBoxes.env ? 'expanded' : ''}`} ref={refs.env} onClick={() => toggleBox('env')}>
+          <div className="mech-box bg-mint" ref={refs.env}>
             <p className="mech-box-title">WORK ENVIRONMENT</p>
             <p className="mech-box-subtitle">Broad setting that shapes the work</p>
-            <p className="mech-box-examples">e.g. onsite | offsite | office</p>
+            <button className="examples-btn" onClick={() => setActiveModal({ title: 'WORK ENVIRONMENT', examples: 'e.g. onsite | offsite | office' })}>
+              ⓘ Examples
+            </button>
           </div>
         </div>
 
         <div className="mech-row">
-          <div className={`mech-box bg-blue ${expandedBoxes.workerChar ? 'expanded' : ''}`} ref={refs.workerChar} onClick={() => toggleBox('workerChar')}>
+          <div className="mech-box bg-blue" ref={refs.workerChar}>
             <p className="mech-box-title">WORKER CHARACTERISTICS</p>
             <p className="mech-box-subtitle">What you consciously/unconsciously bring to work (explicit/implicit)</p>
-            <p className="mech-box-examples">e.g. personality | trait domains, aspects, facets | needs | motives | values | fitness | age | health | experience | tacit knowledge</p>
+            <button className="examples-btn" onClick={() => setActiveModal({ title: 'WORKER CHARACTERISTICS', examples: 'e.g. personality | trait domains, aspects, facets | needs | motives | values | fitness | age | health | experience | tacit knowledge' })}>
+              ⓘ Examples
+            </button>
           </div>
           
-          <div className={`mech-box border-dashed ${expandedBoxes.align ? 'expanded' : ''}`} ref={refs.align} onClick={() => toggleBox('align')}>
+          <div className="mech-box border-dashed" ref={refs.align}>
             <p className="mech-box-title">WORKER-WORK ALIGNMENT</p>
             <p className="mech-box-subtitle">The match or mismatch (fit) between work & worker</p>
-            <p className="mech-box-examples">e.g. needs-supplies | demands-abilities | values-identity</p>
+            <button className="examples-btn" onClick={() => setActiveModal({ title: 'WORKER-WORK ALIGNMENT', examples: 'e.g. needs-supplies | demands-abilities | values-identity' })}>
+              ⓘ Examples
+            </button>
           </div>
 
-          <div className={`mech-box bg-mint ${expandedBoxes.workChar ? 'expanded' : ''}`} ref={refs.workChar} onClick={() => toggleBox('workChar')}>
+          <div className="mech-box bg-mint" ref={refs.workChar}>
             <p className="mech-box-title">WORK CHARACTERISTICS</p>
             <p className="mech-box-subtitle">Designable features of roles, work & tasks</p>
-            <p className="mech-box-examples">e.g. workload | autonomy | support | safety | monitoring | goals | salary</p>
+            <button className="examples-btn" onClick={() => setActiveModal({ title: 'WORK CHARACTERISTICS', examples: 'e.g. workload | autonomy | support | safety | monitoring | goals | salary' })}>
+              ⓘ Examples
+            </button>
           </div>
         </div>
 
         <div className="mech-row">
           <div />
-          <div className={`mech-box bg-purple ${expandedBoxes.interp ? 'expanded' : ''}`} ref={refs.interp} onClick={() => toggleBox('interp')}>
+          <div className="mech-box bg-purple" ref={refs.interp}>
             <p className="mech-box-title">WORKER INTERPRETATION / EXPERIENCE</p>
             <p className="mech-box-subtitle">How you interpret work (extrinsic → intrinsic)</p>
-            <p className="mech-box-examples">e.g. fair / unfair | controllable / uncontrollable | meaningful / pointless | threatening / challenging</p>
+            <button className="examples-btn" onClick={() => setActiveModal({ title: 'WORKER INTERPRETATION / EXPERIENCE', examples: 'e.g. fair / unfair | controllable / uncontrollable | meaningful / pointless | threatening / challenging' })}>
+              ⓘ Examples
+            </button>
           </div>
           <div />
         </div>
@@ -223,15 +228,19 @@ const GoodWorkMechanism = () => {
           <div className="experienced-state-container" ref={refs.expState}>
             <p className="experienced-state-title">EXPERIENCED STATE</p>
             <div className="experienced-state-boxes">
-              <div className={`mech-box bg-yellow-light ${expandedBoxes.motiv ? 'expanded' : ''}`} ref={refs.motiv} onClick={() => toggleBox('motiv')}>
+              <div className="mech-box bg-yellow-light" ref={refs.motiv}>
                 <p className="mech-box-title">MOTIVATIONAL-AFFECTIVE STATE</p>
                 <p className="mech-box-subtitle">The experienced state of motivation & needs</p>
-                <p className="mech-box-examples">e.g. energetic arousal | tense arousal | engagement | boredom | stress | confidence | frustration</p>
+                <button className="examples-btn" onClick={() => setActiveModal({ title: 'MOTIVATIONAL-AFFECTIVE STATE', examples: 'e.g. energetic arousal | tense arousal | engagement | boredom | stress | confidence | frustration' })}>
+                  ⓘ Examples
+                </button>
               </div>
-              <div className={`mech-box bg-orange ${expandedBoxes.physio ? 'expanded' : ''}`} ref={refs.physio} onClick={() => toggleBox('physio')}>
+              <div className="mech-box bg-orange" ref={refs.physio}>
                 <p className="mech-box-title">PHYSIOLOGICAL STATE</p>
                 <p className="mech-box-subtitle">Your physical state during work</p>
-                <p className="mech-box-examples">e.g. autonomic arousal | cardiovascular load | fatigue | musculoskeletal strain | heat strain | recovery</p>
+                <button className="examples-btn" onClick={() => setActiveModal({ title: 'PHYSIOLOGICAL STATE', examples: 'e.g. autonomic arousal | cardiovascular load | fatigue | musculoskeletal strain | heat strain | recovery' })}>
+                  ⓘ Examples
+                </button>
               </div>
             </div>
           </div>
@@ -239,15 +248,29 @@ const GoodWorkMechanism = () => {
 
         <div className="mech-row">
           <div />
-          <div className={`mech-box bg-tan ${expandedBoxes.behav ? 'expanded' : ''}`} ref={refs.behav} onClick={() => toggleBox('behav')}>
+          <div className="mech-box bg-tan" ref={refs.behav}>
             <p className="mech-box-title">BEHAVIOUR / OUTCOMES</p>
             <p className="mech-box-subtitle">What you do and what follows</p>
-            <p className="mech-box-examples">e.g. wellbeing | productivity | green results | safety | effort | persistence | errors | rework | learning | absence</p>
+            <button className="examples-btn" onClick={() => setActiveModal({ title: 'BEHAVIOUR / OUTCOMES', examples: 'e.g. wellbeing | productivity | green results | safety | effort | persistence | errors | rework | learning | absence' })}>
+              ⓘ Examples
+            </button>
           </div>
           <div />
         </div>
 
       </div>
+
+      {activeModal && (
+        <div className="mech-modal-overlay" onClick={() => setActiveModal(null)}>
+          <div className="mech-modal-content" onClick={e => e.stopPropagation()}>
+            <button className="mech-modal-close" onClick={() => setActiveModal(null)}>&times;</button>
+            <h3>{activeModal.title}</h3>
+            <p className="mech-box-examples" style={{ display: 'block', border: 'none', padding: 0 }}>
+              {activeModal.examples}
+            </p>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
