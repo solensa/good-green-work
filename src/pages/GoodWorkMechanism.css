@@ -61,8 +61,7 @@
   border-radius: 4px;
   text-align: center;
   width: 100%;
-  height: 100%; /* Stretch to fill grid cell */
-  min-height: 140px; /* Give it more room so it's not squished */
+  height: 160px; /* Forced uniform height for all boxes */
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -85,6 +84,9 @@
   transition: all 0.2s;
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-transform: uppercase;
   gap: 4px;
 }
 
@@ -161,7 +163,6 @@
 
 .experienced-state-boxes .mech-box {
   width: 100%;
-  height: 100%; /* Force same height */
 }
 
 /* SVG Overlay for arrows */

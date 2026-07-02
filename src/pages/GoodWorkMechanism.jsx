@@ -153,7 +153,7 @@ const GoodWorkMechanism = () => {
               <path className="arrow-path" d={`M ${Math.max(coords.behav.right.x, coords.env.right.x) + 80} ${coords.workChar.right.y} L ${coords.workChar.right.x + 5} ${coords.workChar.right.y}`} markerEnd="url(#arrowhead)" />
               
               {/* Shorter-term feedback loop (Left: Behav -> Interp) */}
-              <Arrow start={coords.behav.left} end={coords.interp.left} startSide="left" endSide="left" pathOffset={40} />
+              <path className="arrow-path" d={`M ${coords.behav.left.x} ${coords.behav.left.y} L ${coords.expState.left.x - 40} ${coords.behav.left.y} L ${coords.expState.left.x - 40} ${coords.interp.left.y} L ${coords.interp.left.x - 5} ${coords.interp.left.y}`} markerEnd="url(#arrowhead)" />
             </>
           )}
         </svg>
@@ -189,8 +189,8 @@ const GoodWorkMechanism = () => {
         <div className="mech-row">
           <div className="mech-box bg-blue" ref={refs.workerChar}>
             <p className="mech-box-title">WORKER CHARACTERISTICS</p>
-            <p className="mech-box-subtitle">What you consciously/unconsciously bring to work (explicit/implicit)</p>
-            <button className="examples-btn" onClick={() => setActiveModal({ title: 'WORKER CHARACTERISTICS', examples: 'e.g. personality | trait domains, aspects, facets | needs | motives | values | fitness | age | health | experience | tacit knowledge' })}>
+            <p className="mech-box-subtitle">What you consciously/unconsciously bring to work</p>
+            <button className="examples-btn" onClick={() => setActiveModal({ title: 'WORKER CHARACTERISTICS', examples: '(explicit/implicit) e.g. personality | trait domains, aspects, facets | needs | motives | values | fitness | age | health | experience | tacit knowledge' })}>
               ⓘ Examples
             </button>
           </div>
