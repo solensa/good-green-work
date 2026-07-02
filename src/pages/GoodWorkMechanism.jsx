@@ -142,11 +142,8 @@ const GoodWorkMechanism = () => {
               {/* Longer-term feedback loop (Left: Behav -> Worker Char) */}
               <path className="arrow-path" d={`M ${coords.behav.bottom.x - 20} ${coords.behav.bottom.y} L ${coords.behav.bottom.x - 20} ${coords.behav.bottom.y + 30} L ${coords.workerChar.left.x - 80} ${coords.behav.bottom.y + 30} L ${coords.workerChar.left.x - 80} ${coords.workerChar.left.y} L ${coords.workerChar.left.x - 5} ${coords.workerChar.left.y}`} markerEnd="url(#arrowhead)" />
               
-              {/* Longer-term feedback loop (Right: Behav -> Env) */}
-              <path className="arrow-path" d={`M ${coords.behav.bottom.x + 20} ${coords.behav.bottom.y} L ${coords.behav.bottom.x + 20} ${coords.behav.bottom.y + 30} L ${Math.max(coords.behav.right.x, coords.env.right.x) + 80} ${coords.behav.bottom.y + 30} L ${Math.max(coords.behav.right.x, coords.env.right.x) + 80} ${coords.env.right.y} L ${coords.env.right.x + 5} ${coords.env.right.y}`} markerEnd="url(#arrowhead)" />
-              
-              {/* Branch to Work Char */}
-              <path className="arrow-path" d={`M ${Math.max(coords.behav.right.x, coords.env.right.x) + 80} ${coords.workChar.right.y} L ${coords.workChar.right.x + 5} ${coords.workChar.right.y}`} markerEnd="url(#arrowhead)" />
+              {/* Longer-term feedback loop (Right: Behav -> Work Char) */}
+              <path className="arrow-path" d={`M ${coords.behav.bottom.x + 20} ${coords.behav.bottom.y} L ${coords.behav.bottom.x + 20} ${coords.behav.bottom.y + 30} L ${Math.max(coords.behav.right.x, coords.workChar.right.x) + 40} ${coords.behav.bottom.y + 30} L ${Math.max(coords.behav.right.x, coords.workChar.right.x) + 40} ${coords.workChar.right.y} L ${coords.workChar.right.x + 5} ${coords.workChar.right.y}`} markerEnd="url(#arrowhead)" />
               
               {/* Shorter-term feedback loop (Left: Behav -> Interp) */}
               <path className="arrow-path" d={`M ${coords.behav.left.x} ${coords.behav.left.y} L ${coords.expState.left.x - 40} ${coords.behav.left.y} L ${coords.expState.left.x - 40} ${coords.interp.left.y} L ${coords.interp.left.x - 5} ${coords.interp.left.y}`} markerEnd="url(#arrowhead)" />
@@ -160,7 +157,7 @@ const GoodWorkMechanism = () => {
             <div className="loop-label" style={{ top: (coords.workerChar.left.y + coords.behav.left.y)/2, left: coords.workerChar.left.x - 80 - 65, transform: 'rotate(-90deg)' }}>
               longer-term feedback loop
             </div>
-            <div className="loop-label" style={{ top: coords.behav.bottom.y + 10, left: coords.behav.right.x + 20 }}>
+            <div className="loop-label" style={{ top: coords.behav.bottom.y + 10, left: coords.workChar.right.x - 20 }}>
               longer-term feedback loop
             </div>
             <div className="loop-label" style={{ top: (coords.interp.left.y + coords.behav.left.y)/2 - 10, left: coords.expState.left.x - 40 - 65, transform: 'rotate(-90deg)' }}>
@@ -208,7 +205,7 @@ const GoodWorkMechanism = () => {
           </div>
         </div>
 
-        <div className="mech-row" style={{ marginTop: '3rem' }}>
+        <div className="mech-row" style={{ marginTop: '4.5rem' }}>
           <div />
           <div className="mech-box bg-purple" ref={refs.interp}>
             <p className="mech-box-title">WORKER INTERPRETATION / EXPERIENCE</p>
