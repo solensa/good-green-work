@@ -146,8 +146,11 @@ const GoodWorkMechanism = () => {
               {/* Longer-term feedback loop (Left: Behav -> Worker Char) */}
               <Arrow start={coords.behav.left} end={coords.workerChar.left} startSide="left" endSide="left" pathOffset={80} />
               
-              {/* Longer-term feedback loop (Right: Behav -> Work Char) */}
-              <Arrow start={coords.behav.right} end={coords.workChar.right} startSide="right" endSide="right" pathOffset={80} />
+              {/* Longer-term feedback loop (Right: Behav -> Env) */}
+              <Arrow start={coords.behav.right} end={coords.env.right} startSide="right" endSide="right" pathOffset={80} />
+              
+              {/* Branch to Work Char */}
+              <path className="arrow-path" d={`M ${Math.max(coords.behav.right.x, coords.env.right.x) + 80} ${coords.workChar.right.y} L ${coords.workChar.right.x + 5} ${coords.workChar.right.y}`} markerEnd="url(#arrowhead)" />
               
               {/* Shorter-term feedback loop (Left: Exp State -> Interp) */}
               <Arrow start={coords.expState.left} end={coords.interp.left} startSide="left" endSide="left" pathOffset={40} />
@@ -171,15 +174,22 @@ const GoodWorkMechanism = () => {
         )}
 
 
-        <div className="mech-row row-1">
-          <div className="mech-box bg-mint" ref={refs.env}>
-            <p className="mech-box-title">WORK ENVIRONMENT</p>
-            <p className="mech-box-subtitle">Broad setting that shapes the work</p>
-            <p className="mech-box-examples">e.g. onsite | offsite | office</p>
+        <div className="mech-row">
+          <div />
+          <div />
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', justifyContent: 'flex-end' }}>
+            <p style={{ fontSize: '0.65rem', fontStyle: 'italic', color: '#64748b', margin: 0, textAlign: 'center' }}>
+              The goal is to have all aspects of the conceptual map feed into the<br/>improvement of the work environment and characteristics
+            </p>
+            <div className="mech-box bg-mint" ref={refs.env}>
+              <p className="mech-box-title">WORK ENVIRONMENT</p>
+              <p className="mech-box-subtitle">Broad setting that shapes the work</p>
+              <p className="mech-box-examples">e.g. onsite | offsite | office</p>
+            </div>
           </div>
         </div>
 
-        <div className="mech-row row-2">
+        <div className="mech-row">
           <div className="mech-box bg-blue" ref={refs.workerChar}>
             <p className="mech-box-title">WORKER CHARACTERISTICS</p>
             <p className="mech-box-subtitle">What you consciously/unconsciously bring to work (explicit/implicit)</p>
@@ -199,15 +209,17 @@ const GoodWorkMechanism = () => {
           </div>
         </div>
 
-        <div className="mech-row row-3">
+        <div className="mech-row">
+          <div />
           <div className="mech-box bg-purple" ref={refs.interp}>
             <p className="mech-box-title">WORKER INTERPRETATION / EXPERIENCE</p>
             <p className="mech-box-subtitle">How you interpret work (extrinsic → intrinsic)</p>
             <p className="mech-box-examples">e.g. fair / unfair | controllable / uncontrollable | meaningful / pointless | threatening / challenging</p>
           </div>
+          <div />
         </div>
 
-        <div className="mech-row row-4">
+        <div className="mech-row-single">
           <div className="experienced-state-container" ref={refs.expState}>
             <p className="experienced-state-title">EXPERIENCED STATE</p>
             <div className="experienced-state-boxes">
@@ -225,12 +237,14 @@ const GoodWorkMechanism = () => {
           </div>
         </div>
 
-        <div className="mech-row row-5">
+        <div className="mech-row">
+          <div />
           <div className="mech-box bg-tan" ref={refs.behav}>
             <p className="mech-box-title">BEHAVIOUR / OUTCOMES</p>
             <p className="mech-box-subtitle">What you do and what follows</p>
             <p className="mech-box-examples">e.g. wellbeing | productivity | green results | safety | effort | persistence | errors | rework | learning | absence</p>
           </div>
+          <div />
         </div>
 
       </div>

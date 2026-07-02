@@ -1,9 +1,9 @@
 .mechanism-page {
   position: relative;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem 4rem;
+  padding: 2rem;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   animation: fadeIn 0.5s ease-out;
@@ -29,24 +29,29 @@
 .mechanism-diagram-container {
   position: relative;
   width: 100%;
-  /* We will need some padding on the sides for the arrows to route around */
-  padding: 0 4rem;
+  /* Large padding on the sides for the arrows to route around */
+  padding: 0 8rem;
   box-sizing: border-box;
 }
 
-/* Flex rows */
+/* Grid rows */
 .mech-row {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  margin-bottom: 2rem;
   position: relative;
   z-index: 2; /* keep boxes above svg arrows */
+  width: 100%;
 }
 
-.mech-row.row-1 {
-  justify-content: flex-end;
+.mech-row-single {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 2;
 }
 
 /* Diagram Boxes */
@@ -55,7 +60,7 @@
   padding: 1rem;
   border-radius: 4px;
   text-align: center;
-  width: 320px;
+  width: 100%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -103,13 +108,15 @@
   padding: 1.5rem;
   border-radius: 6px;
   width: 100%;
-  max-width: 700px;
+  /* Span exactly the width of the inner halves of col 1 and col 3, roughly 85% */
+  max-width: 90%;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
   z-index: 2;
+  margin: 0 auto;
 }
 
 .experienced-state-title {
@@ -121,14 +128,14 @@
 }
 
 .experienced-state-boxes {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
   width: 100%;
-  justify-content: center;
 }
 
 .experienced-state-boxes .mech-box {
-  width: 300px;
+  width: 100%;
 }
 
 /* SVG Overlay for arrows */
