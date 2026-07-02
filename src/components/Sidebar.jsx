@@ -34,7 +34,7 @@ const Sidebar = () => {
           className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
         >
           <span className="nav-icon"><img src={mapIcon} alt="Mechanism" style={{ width: '100%', height: '100%' }} /></span>
-          Good Work Mechanism
+          Map of Good Work
         </NavLink>
       </nav>
     </aside>
