@@ -1,0 +1,227 @@
+/* Workforce Flows Explorer */
+
+.fixture-banner {
+  background: #fef3c7;
+  border: 1px solid #f59e0b;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  color: #92400e;
+}
+
+.flow-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.flow-controls .filter-pill:not(.active) {
+  border: 1px solid #a0e6e0;
+  background: #ffffff;
+}
+
+.flow-filter-group {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.flow-filter-group .filters-label {
+  min-width: 90px;
+}
+
+/* Stat cards */
+
+.flow-stats {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
+  align-items: stretch;
+}
+
+.flow-year-group {
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 0.75rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.flow-year-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-primary);
+}
+
+.flow-year-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  flex: 1;
+}
+
+.flow-year-cards.two {
+  grid-template-columns: 1fr 1fr;
+}
+
+.flow-stat-card {
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.flow-stat-card.stay { border: 1px solid #92A7D4; background: rgba(146, 167, 212, 0.13); }
+.flow-stat-card.join { border: 1px solid #19A437; background: rgba(25, 164, 55, 0.09); }
+.flow-stat-card.leave { border: 1px solid #F37375; background: rgba(243, 115, 117, 0.11); }
+
+.flow-stat-card.join .flow-mini-list { border-top-color: #19A437; }
+.flow-stat-card.leave .flow-mini-list { border-top-color: #F37375; }
+.flow-stat-card.join .flow-mini-row.residual { border-top-color: #19A437; }
+.flow-stat-card.leave .flow-mini-row.residual { border-top-color: #F37375; }
+
+.flow-stat-word {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+}
+
+.flow-stat-value-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.flow-stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.flow-stat-vs {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.flow-stat-label {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.flow-sample-line {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin: 0.75rem 0 0;
+}
+
+/* Mini breakdown lists inside stat cards */
+
+.flow-mini-list {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.flow-mini-list h3 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.4rem;
+}
+
+.flow-mini-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.12rem 0;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.flow-mini-pct {
+  min-width: 3rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.flow-mini-row.residual {
+  border-top: 1px dashed var(--border-color);
+  margin-top: 0.3rem;
+  padding-top: 0.35rem;
+  font-style: italic;
+}
+
+.flow-mini-row.residual .flow-mini-pct {
+  color: var(--text-secondary);
+}
+
+/* Sankey */
+
+.sankey-wrap {
+  margin: 1rem 0 0;
+  overflow: visible;
+}
+
+.sankey-node.stock { fill: #92A7D4; }
+.sankey-node.out { fill: #F37375; }
+.sankey-node.in { fill: #19A437; }
+
+.sankey-ribbon-stay { fill: #92A7D4; opacity: 0.55; }
+.sankey-ribbon-out { fill: #F37375; opacity: 0.45; }
+.sankey-ribbon-in { fill: #19A437; opacity: 0.35; }
+
+.sankey-node-label {
+  font-size: 13px;
+  fill: var(--text-secondary);
+}
+
+.sankey-stock-label {
+  font-size: 14px;
+  font-weight: 700;
+  fill: var(--text-primary);
+}
+
+.sankey-stay-label {
+  font-size: 15px;
+  font-weight: 600;
+  fill: #5b74ad;
+}
+
+/* Notes */
+
+.low-n-note {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+.source-note {
+  border-top: 1px solid var(--border-color);
+  margin-top: 3rem;
+  padding-top: 1rem;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .flow-stats,
+  .flow-year-cards.two {
+    grid-template-columns: 1fr;
+  }
+}
