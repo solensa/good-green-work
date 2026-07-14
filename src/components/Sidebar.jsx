@@ -43,7 +43,7 @@ const Sidebar = () => {
           className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
         >
           <span className="nav-icon"><img src={peopleIcon} alt="Workforce" style={{ width: '100%', height: '100%' }} /></span>
-          Workforce Flows Explorer
+          Workforce Population
         </NavLink>
       </nav>
     </aside>

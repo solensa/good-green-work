@@ -107,10 +107,10 @@ function WorkforceFlows() {
   return (
     <div className="page-container fade-in">
       <header className="page-header">
-        <h1>Workforce Flows Explorer</h1>
+        <h1>Workforce Population: Joining, Staying and Leaving</h1>
         <p>
-          Who stays in, joins and leaves UK construction each year — estimated from
-          pooled Labour Force Survey five-quarter panels, 2022–2025.
+          Who stays in, joins and leaves UK construction each year. Data from
+          Labour Force Survey five-quarter panels, 2022–2025.
         </p>
       </header>
 
