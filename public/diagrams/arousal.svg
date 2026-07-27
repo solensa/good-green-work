@@ -1,16 +1,16 @@
 <svg viewBox="0 82 380 202" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="380" height="300" fill="white"/>
 <rect x="43.4804" y="107.5" width="150" height="70" rx="5" fill="#FCF4D1"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="74.1635" y="146.5">Tense-tiredness</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="74.1635" y="146.5">Tense-tiredness</tspan></text>
 <rect x="197.48" y="107.5" width="150" height="70" rx="5" fill="#FCF4D1"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="234.77" y="146.5">Tense-energy</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="234.77" y="146.5">Tense-energy</tspan></text>
 <rect x="43.4804" y="181.5" width="150" height="70" rx="5" fill="#FCF4D1"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="76.645" y="220.5">Calm-tiredness</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="76.645" y="220.5">Calm-tiredness</tspan></text>
 <rect x="197.48" y="181.5" width="150" height="70" rx="5" fill="#EDAE40"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="237.251" y="214">Calm-energy&#10;</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="241.833" y="227">The optimal</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="115.181" y="273.136">Energetic arousal: tired &#x2192; vigorous</tspan></text>
-<text transform="matrix(0 -1 1 0 16.4804 246)" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="0" y="9.63636">Tense arousal: calm &#x2192; tense</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="237.251" y="214">Calm-energy&#10;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" letter-spacing="0em"><tspan x="241.833" y="227">The optimal</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="115.181" y="273.136">Energetic arousal: tired &#x2192; vigorous</tspan></text>
+<text transform="matrix(0 -1 1 0 16.4804 246)" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="0" y="9.63636">Tense arousal: calm &#x2192; tense</tspan></text>
 <path d="M34.4804 89.9999L28.7069 99.9999L40.2539 99.9999L34.4804 89.9999ZM34.4804 259.5L35.4804 259.5L35.4804 98.9999L34.4804 98.9999L33.4804 98.9999L33.4804 259.5L34.4804 259.5Z" fill="black"/>
 <path d="M363.52 259.5L353.52 253.727L353.52 265.274L363.52 259.5ZM34.4804 259.5L34.4804 260.5L354.52 260.5L354.52 259.5L354.52 258.5L34.4804 258.5L34.4804 259.5Z" fill="black"/>
 </svg>

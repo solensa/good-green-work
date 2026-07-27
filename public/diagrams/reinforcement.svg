@@ -2,24 +2,24 @@
 <rect width="380" height="300" fill="white"/>
 <rect x="41.9805" y="114.25" width="149" height="69" rx="4.5" fill="#ECF7DF"/>
 <rect x="41.9805" y="114.25" width="149" height="69" rx="4.5" stroke="#76C92E"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="54.0415" y="138.75">Positive Reinforcement</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="64.1562" y="152.886">e.g. add praise, bonus</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="85.8213" y="166.886">Behaviour &#x2191;</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="54.0415" y="138.75">Positive Reinforcement</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="64.1562" y="152.886">e.g. add praise, bonus</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="85.8213" y="166.886">Behaviour &#x2191;</tspan></text>
 <rect x="195.98" y="114.25" width="149" height="69" rx="4.5" fill="#ECF7DF"/>
 <rect x="195.98" y="114.25" width="149" height="69" rx="4.5" stroke="#76C92E"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="205.512" y="138.75">Negative Reinforcement</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="215.471" y="152.886">e.g. remove micro-mgt.</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="239.821" y="166.886">Behaviour &#x2191;</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="205.512" y="138.75">Negative Reinforcement</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="215.471" y="152.886">e.g. remove micro-mgt.</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="239.821" y="166.886">Behaviour &#x2191;</tspan></text>
 <rect x="41.4805" y="187.75" width="150" height="70" rx="5" fill="#EDEDED"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="61.3999" y="212.75">Positive Punishment</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="53.668" y="226.886">e.g. add penalty, discipline</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="85.8213" y="240.886">Behaviour &#x2193;</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="61.3999" y="212.75">Positive Punishment</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="53.668" y="226.886">e.g. add penalty, discipline</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="85.8213" y="240.886">Behaviour &#x2193;</tspan></text>
 <rect x="195.48" y="187.75" width="150" height="70" rx="5" fill="#EDEDED"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="212.87" y="212.75">Negative Punishment</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="214.304" y="226.886">e.g. withdraw privileges</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="239.821" y="240.886">Behaviour &#x2193;</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="84.0576" y="279.136">Add Consequence &#x2194; Remove Consequence</tspan></text>
-<text transform="matrix(0 -1 1 0 15.4805 261.75)" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="0" y="9.63636">Reduce Behaviour &#x2194; increase It</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="212.87" y="212.75">Negative Punishment</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="214.304" y="226.886">e.g. withdraw privileges</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="239.821" y="240.886">Behaviour &#x2193;</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="84.0576" y="279.136">Add Consequence &#x2194; Remove Consequence</tspan></text>
+<text transform="matrix(0 -1 1 0 15.4805 261.75)" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="0" y="9.63636">Reduce Behaviour &#x2194; increase It</tspan></text>
 <path d="M35.4805 93.9999L29.707 104L41.254 104L35.4805 93.9999ZM35.4805 263.5L36.4805 263.5L36.4805 103L35.4805 103L34.4805 103L34.4805 263.5L35.4805 263.5Z" fill="black"/>
 <path d="M364.52 263.5L354.52 257.727L354.52 269.274L364.52 263.5ZM35.4805 263.5L35.4805 264.5L355.52 264.5L355.52 263.5L355.52 262.5L35.4805 262.5L35.4805 263.5Z" fill="black"/>
 </svg>
