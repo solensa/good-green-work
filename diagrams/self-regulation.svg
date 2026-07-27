@@ -1,0 +1,18 @@
+<svg viewBox="0 111 380 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="380" height="300" fill="white"/>
+<rect x="24" y="118.974" width="104" height="56" rx="6" fill="#F9EFA0"/>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="44.6963" y="138.61">Set standard&#10;</tspan><tspan x="34.1738" y="150.61">&#34;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="38.0996" y="150.61">what am I aiming </tspan><tspan x="64.916" y="162.61">for?&#34;</tspan></text>
+<rect x="139.5" y="118.974" width="104" height="56" rx="6" fill="#F9EFA0"/>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="172.359" y="144.61">Monitor&#10;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="149.073" y="156.61">&#34;how am I doing?&#34;</tspan></text>
+<rect x="255" y="118.974" width="104" height="56" rx="6" fill="#F9EFA0"/>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="290.984" y="144.61">Adjust&#10;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="266.478" y="156.61">effort or strategy</tspan></text>
+<line x1="76" y1="208.224" x2="307" y2="208.224" stroke="#404040" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="306.25" y1="208.974" x2="306.25" y2="174.974" stroke="#404040" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="112.692" y="224.61">Repeat until the standard is met</tspan></text>
+<path d="M139.5 150.974L129.5 145.2V156.747L139.5 150.974ZM128 150.974V151.974H130.5V150.974V149.974H128V150.974Z" fill="black"/>
+<path d="M76 174.974L70.2265 184.974L81.7735 184.974L76 174.974ZM76 208.974L77 208.974L77 206.849L76 206.849L75 206.849L75 208.974L76 208.974ZM76 202.599L77 202.599L77 198.349L76 198.349L75 198.349L75 202.599L76 202.599ZM76 194.099L77 194.099L77 189.849L76 189.849L75 189.849L75 194.099L76 194.099ZM76 185.599L77 185.599L77 181.349L76 181.349L75 181.349L75 185.599L76 185.599ZM76 174.974L70.2265 184.974L81.7735 184.974L76 174.974ZM76 208.974L77 208.974L77 206.849L76 206.849L75 206.849L75 208.974L76 208.974ZM76 202.599L77 202.599L77 198.349L76 198.349L75 198.349L75 202.599L76 202.599ZM76 194.099L77 194.099L77 189.849L76 189.849L75 189.849L75 194.099L76 194.099ZM76 185.599L77 185.599L77 181.349L76 181.349L75 181.349L75 185.599L76 185.599Z" fill="#404040"/>
+<path d="M255 150.974L245 145.2V156.747L255 150.974ZM243.5 150.974V151.974H246V150.974V149.974H243.5V150.974Z" fill="black"/>
+</svg>

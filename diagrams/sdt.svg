@@ -1,0 +1,17 @@
+<svg viewBox="0 82 380 171" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="380" height="300" fill="white"/>
+<rect x="25.5" y="90.5" width="124" height="35" rx="4.5" fill="#FCF4D1"/>
+<rect x="25.5" y="90.5" width="124" height="35" rx="4.5" stroke="#EDAE40"/>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="59.5596" y="112">Autonomy</tspan></text>
+<rect x="25.5" y="150.5" width="124" height="35" rx="4.5" fill="#FCF4D1"/>
+<rect x="25.5" y="150.5" width="124" height="35" rx="4.5" stroke="#EDAE40"/>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="52.8779" y="172">Competence</tspan></text>
+<rect x="25.5" y="210.5" width="124" height="35" rx="4.5" fill="#FCF4D1"/>
+<rect x="25.5" y="210.5" width="124" height="35" rx="4.5" stroke="#EDAE40"/>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="54.1885" y="232">Relatedness</tspan></text>
+<line x1="155.386" y1="107.357" x2="225.386" y2="149.357" stroke="#404040" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="155" y1="167.25" x2="225" y2="167.25" stroke="#404040" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="154.614" y1="227.357" x2="224.614" y2="185.357" stroke="#404040" stroke-width="1.5" stroke-dasharray="4 4"/>
+<rect x="225" y="128" width="130" height="80" rx="6" fill="#EDAE40"/>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="237.836" y="165.5">Intrinsic Motivation&#10;</tspan><tspan x="258.176" y="178.5">&#38; Wellbeing</tspan></text>
+</svg>

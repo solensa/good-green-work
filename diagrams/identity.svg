@@ -1,0 +1,12 @@
+<svg viewBox="0 91 380 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="380" height="300" fill="white"/>
+<rect x="80" y="99" width="220" height="52" rx="6" fill="#F4EA66"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="141.714" y="121.5">Who I believe I am</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="133.97" y="136.636">&#34;a skilled tradesperson&#34;</tspan></text>
+<rect x="20" y="190" width="160" height="60" rx="6" fill="#F9EFA0"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="42.1694" y="211">Seek and take pride in </tspan><tspan x="40.5151" y="224">work that expresses or </tspan><tspan x="57.0044" y="237">aligns to identity</tspan></text>
+<rect x="200" y="190" width="160" height="60" rx="6" fill="#EDEDED"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" letter-spacing="0em"><tspan x="214.623" y="217.5">Resists work that doesn&#x2019;t </tspan><tspan x="239.878" y="230.5">align to identity</tspan></text>
+<path d="M100 190L111.482 191.227L106.803 180.67L100 190ZM188 151L187.595 150.086L107.823 185.439L108.228 186.353L108.633 187.268L188.405 151.914L188 151Z" fill="black"/>
+<path d="M280 190L273.046 180.781L268.54 191.413L280 190ZM188 151L187.61 151.921L271.323 187.408L271.714 186.487L272.104 185.567L188.39 150.079L188 151Z" fill="black"/>
+</svg>

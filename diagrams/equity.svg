@@ -1,0 +1,16 @@
+<svg viewBox="0 127 380 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="380" height="300" fill="white"/>
+<line x1="50" y1="206.056" x2="330" y2="206.056" stroke="#404040" stroke-width="3"/>
+<path d="M190 208.556L205.588 231.056H174.412L190 208.556Z" fill="#404040"/>
+<rect x="40.5" y="135.056" width="109" height="61" rx="5.5" fill="#E0F2E4"/>
+<rect x="40.5" y="135.056" width="109" height="61" rx="5.5" stroke="#19A437"/>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="58.7021" y="160.056">my outcomes</tspan></text>
+<line x1="60" y1="165.056" x2="130" y2="165.056" stroke="#21293B"/>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="68.585" y="179.056">my inputs</tspan></text>
+<rect x="230.5" y="135.056" width="109" height="61" rx="5.5" fill="#E0F2E4"/>
+<rect x="230.5" y="135.056" width="109" height="61" rx="5.5" stroke="#19A437"/>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="244.164" y="160.056">their outcomes</tspan></text>
+<line x1="250" y1="165.056" x2="320" y2="165.056" stroke="#21293B"/>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="254.046" y="179.056">their inputs</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="180.062" y="171.375">=?</tspan></text>
+</svg>
