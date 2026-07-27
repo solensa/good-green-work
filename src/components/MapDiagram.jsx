@@ -9,16 +9,16 @@ const MapDiagram = ({ selectedTheory, onSelectTheory, showLabels, activeTheories
       {/* Background Quadrants */}
       <div className="quadrants">
         <div className="quadrant quadrant-tl">
-          <div className="quadrant-label">Internal Appraisal<br/>Mechanisms</div>
-        </div>
-        <div className="quadrant quadrant-tr">
-          <div className="quadrant-label">Work System<br/>Mechanisms</div>
-        </div>
-        <div className="quadrant quadrant-bl">
           <div className="quadrant-label">Human Needs &<br/>Motives</div>
         </div>
-        <div className="quadrant quadrant-br">
+        <div className="quadrant quadrant-tr">
           <div className="quadrant-label">Job Conditions &<br/>Work Factors</div>
+        </div>
+        <div className="quadrant quadrant-bl">
+          <div className="quadrant-label">Internal Appraisal<br/>Mechanisms</div>
+        </div>
+        <div className="quadrant quadrant-br">
+          <div className="quadrant-label">Work System<br/>Mechanisms</div>
         </div>
       </div>
 
@@ -28,8 +28,8 @@ const MapDiagram = ({ selectedTheory, onSelectTheory, showLabels, activeTheories
       
       <div className="axis-label axis-label-left">Internal</div>
       <div className="axis-label axis-label-right">External</div>
-      <div className="axis-label axis-label-top">How motivation operates</div>
-      <div className="axis-label axis-label-bottom">What motivates</div>
+      <div className="axis-label axis-label-top">What motivates</div>
+      <div className="axis-label axis-label-bottom">How motivation operates</div>
 
       {/* SVG Overlay for Connections and Label Lines */}
       <svg className="connections-overlay" preserveAspectRatio="none">
