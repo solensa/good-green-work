@@ -18,5 +18,6 @@ export const diagramNotes = {
   "reinforcement": "Extinction is the fifth case - the consequence stops following the behaviour, and it fades.",
   "self-efficacy": "4 sources build the belief → the belief drives behaviour.",
   "self-regulation": "The mechanism that turns goals into action. Overriding impulses draws on a depletable resource.",
-  "values": "From expectancy-value theory: motivation needs both capability & value. Value sums the three pluses minus the cost"
+  "values": "From expectancy-value theory: motivation needs both capability & value. Value sums the three pluses minus the cost",
+  "jcm": "5 designable job features produce motivation through psychological states they create."
 };
