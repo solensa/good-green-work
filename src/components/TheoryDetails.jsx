@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { diagramNotes } from '../data/diagramNotes';
+import { theoryAttributions } from '../data/theoryAttributions';
 
 // Diagrams are inlined rather than embedded via <img> so that the page's
 // webfont (Inter) applies to the SVG text; images render in isolation and
@@ -37,6 +38,9 @@ const TheoryDetails = ({ theory }) => {
     <div className="details-section">
       <div className="details-header">
         <h2>{theory.name}</h2>
+        {theoryAttributions[theory.id] && (
+          <p className="theory-attribution">{theoryAttributions[theory.id]}</p>
+        )}
       </div>
       {theory.microGroup && (
         <div className="details-tag-container">
