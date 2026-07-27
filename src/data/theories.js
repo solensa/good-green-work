@@ -68,7 +68,7 @@ export const theories = [
     microGroup: "Work Satisfaction",
     name: "Job Characteristics Model",
     category: "Job Conditions & Work Factors",
-    points: [{ id: "jcm_p", label: "Job Characteristics Model", x: 68, y: 45, dx: 3.2, dy: -0.4 }],
+    points: [{ id: "jcm_p", label: "Job Characteristics Model", x: 68, y: 45, dx: 13.5, dy: -0.4 }],
     description: "Hackman and Oldham's Job Characteristics Model is the better-evidenced descendant of Herzberg's job enrichment, and the founding statement that job features are designable and have psychological consequences. Five core characteristics drive work outcomes: skill variety, task identity, task significance, autonomy, and feedback.\n\nCrucially, these features do not act directly. They work through three critical psychological states: experienced meaningfulness of the work, experienced responsibility for outcomes, and knowledge of the actual results. Only when a job is felt through these states does it produce internal work motivation, satisfaction and performance. Growth-need strength was proposed as a moderator, so that enriched work motivates most strongly those who want to grow, though this moderating effect has fared less well empirically than the model's core structure.\n\nIts placement here is deliberate: the model's outcome is internal work motivation, which makes it a motivation theory whose subject happens to be the job, rather than a theory of how work produces wellbeing or strain."
   },
   {
