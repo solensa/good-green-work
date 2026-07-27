@@ -1,13 +1,13 @@
 <svg viewBox="0 82 380 178" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="380" height="300" fill="white"/>
 <rect x="115" y="90" width="150" height="44" rx="6" fill="#EDAE40"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="151.618" y="116">Growth Needs</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="151.618" y="116">Growth Needs</tspan></text>
 <rect x="115" y="149" width="150" height="44" rx="6" fill="#EDAE40"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="138.212" y="175">Relatedness Needs</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="138.212" y="175">Relatedness Needs</tspan></text>
 <rect x="115" y="208" width="150" height="44" rx="6" fill="#EDAE40"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="145.082" y="234">Existence Needs</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="290.758" y="169.636">Satisfaction&#10;</tspan><tspan x="290.758" y="181.636">&#x2192;progression</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="34.5469" y="169.636">Frustration&#10;</tspan><tspan x="26.9004" y="181.636">&#x2192;regression</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="145.082" y="234">Existence Needs</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="290.758" y="169.636">Satisfaction&#10;</tspan><tspan x="290.758" y="181.636">&#x2192;progression</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="34.5469" y="169.636">Frustration&#10;</tspan><tspan x="26.9004" y="181.636">&#x2192;regression</tspan></text>
 <path d="M282.927 111.5L277.102 121.469L288.649 121.53L282.927 111.5ZM282.312 229.5L283.312 229.505L283.881 120.505L282.881 120.499L281.881 120.494L281.312 229.494L282.312 229.5Z" fill="black"/>
 <path d="M97.0725 229.5L102.846 219.5L91.299 219.5L97.0725 229.5ZM97.0725 111.499L96.0725 111.499L96.0725 220.5L97.0725 220.5L98.0725 220.5L98.0725 111.499L97.0725 111.499Z" fill="black"/>
 </svg>

@@ -2,23 +2,23 @@
 <rect width="380" height="300" fill="white"/>
 <rect x="30.5" y="103.5" width="139" height="39" rx="5.5" fill="#FCF4D1"/>
 <rect x="30.5" y="103.5" width="139" height="39" rx="5.5" stroke="#EDAE40"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="65.5029" y="120.636">What I believe&#10;</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="43.4863" y="132.636">e.g. &#34;safety comes first&#34;</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="184.562" y="128.318">&#x2260;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="65.5029" y="120.636">What I believe&#10;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="43.4863" y="132.636">e.g. &#34;safety comes first&#34;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="184.562" y="128.318">&#x2260;</tspan></text>
 <rect x="210.5" y="103.5" width="139" height="39" rx="5.5" fill="#FCF4D1"/>
 <rect x="210.5" y="103.5" width="139" height="39" rx="5.5" stroke="#EDAE40"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="256.895" y="120.636">What I do&#10;</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="226.221" y="132.636">e.g. &#34;I skip the checks&#34;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="256.895" y="120.636">What I do&#10;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="226.221" y="132.636">e.g. &#34;I skip the checks&#34;</tspan></text>
 <path d="M189.996 173L195.77 163L184.223 163L189.996 173ZM189.996 143L188.996 143L188.996 164L189.996 164L190.996 164L190.996 143L189.996 143Z" fill="black"/>
 <line x1="77.7486" y1="230.293" x2="189.749" y2="190.451" stroke="#404040" stroke-width="1.5"/>
 <line x1="309.764" y1="231.712" x2="189.764" y2="191.87" stroke="#404040" stroke-width="1.5"/>
 <line x1="189.25" y1="231" x2="189.25" y2="191.158" stroke="#404040" stroke-width="1.5"/>
 <rect x="92.5" y="173" width="195" height="32" rx="16" fill="#F5D79F"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="106.039" y="193">Dissonance: mental discomfort</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="106.039" y="193">Dissonance: mental discomfort</tspan></text>
 <rect x="24" y="231" width="108" height="34" rx="6" fill="#FCF4D1"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="50.5635" y="245.636">Change the </tspan><tspan x="54.5918" y="257.636">behaviour</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="50.5635" y="245.636">Change the </tspan><tspan x="54.5918" y="257.636">behaviour</tspan></text>
 <rect x="140" y="231" width="108" height="34" rx="6" fill="#FCF4D1"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="152.057" y="251.636">Change the belief</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="152.057" y="251.636">Change the belief</tspan></text>
 <rect x="256" y="231" width="108" height="34" rx="6" fill="#FCF4D1"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="266.162" y="251.636">Rationalise it away</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="266.162" y="251.636">Rationalise it away</tspan></text>
 </svg>

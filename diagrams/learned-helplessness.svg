@@ -1,11 +1,11 @@
 <svg viewBox="0 92 380 188" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="380" height="300" fill="white"/>
 <rect x="60" y="100" width="260" height="44" rx="6" fill="#FCF4D1"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="80.8486" y="126">Repeated setbacks beyond one&#39;s control</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="80.8486" y="126">Repeated setbacks beyond one&#39;s control</tspan></text>
 <rect x="60" y="164" width="260" height="44" rx="6" fill="#F7EC83"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="90.1191" y="190">Learned belief: &#34;nothing I do matters&#34;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="90.1191" y="190">Learned belief: &#34;nothing I do matters&#34;</tspan></text>
 <rect x="60" y="228" width="260" height="44" rx="6" fill="#EDEDED"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="92.2998" y="254">Gives up - even once control returns</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="92.2998" y="254">Gives up - even once control returns</tspan></text>
 <path d="M190 164L195.774 154L184.226 154L190 164ZM190 144L189 144L189 155L190 155L191 155L191 144L190 144Z" fill="black"/>
 <path d="M190 228L195.774 218L184.226 218L190 228ZM190 208L189 208L189 219L190 219L191 219L191 208L190 208Z" fill="black"/>
 </svg>

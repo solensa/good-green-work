@@ -1,16 +1,16 @@
 <svg viewBox="0 92 380 172" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="380" height="300" fill="white"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="20" y="111">Goal Intention</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="20" y="111">Goal Intention</tspan></text>
 <rect x="20" y="120.5" width="340" height="50" rx="6" fill="#EDEDED"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="101.533" y="143.136">&#34;I want to wear my harness properly&#34; &#10;</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-style="italic" letter-spacing="0em"><tspan x="101.929" y="155.136">Relies on remembering and willpower</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="20" y="195.5">Implementation Intention</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="101.533" y="143.136">&#34;I want to wear my harness properly&#34; &#10;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-style="italic" letter-spacing="0em"><tspan x="101.929" y="155.136">Relies on remembering and willpower</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="20" y="195.5">Implementation Intention</tspan></text>
 <rect x="20" y="206" width="150" height="50" rx="6" fill="#F9EFA0"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="50.6738" y="222.636">IF: S</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="71.1719" y="222.636">ituational Cue&#10;</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-style="italic" letter-spacing="0em"><tspan x="44.375" y="234.636">&#34;when I step onto the </tspan><tspan x="70.2734" y="246.636">scaffold...&#34;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="50.6738" y="222.636">IF: S</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="71.1719" y="222.636">ituational Cue&#10;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-style="italic" letter-spacing="0em"><tspan x="44.375" y="234.636">&#34;when I step onto the </tspan><tspan x="70.2734" y="246.636">scaffold...&#34;</tspan></text>
 <rect x="204" y="206" width="150" height="50" rx="6" fill="#F4EA66"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="225.406" y="222.636">THEN: Specific Action&#10;</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-style="italic" letter-spacing="0em"><tspan x="216.368" y="234.636">&#34;...I clip on before anything </tspan><tspan x="267.345" y="246.636">else&#34;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="225.406" y="222.636">THEN: Specific Action&#10;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-style="italic" letter-spacing="0em"><tspan x="216.368" y="234.636">&#34;...I clip on before anything </tspan><tspan x="267.345" y="246.636">else&#34;</tspan></text>
 <path d="M204 231L194 225.226V236.774L204 231ZM170 231V232H195V231V230H170V231Z" fill="black"/>
 </svg>

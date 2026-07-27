@@ -1,22 +1,22 @@
 <svg viewBox="0 82 380 173" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="380" height="300" fill="white"/>
 <rect x="20" y="90" width="100" height="40" rx="6" fill="#76C92E"/>
-<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="54.585" y="114">Effort</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="54.585" y="114">Effort</tspan></text>
 <rect x="140" y="90" width="100" height="40" rx="6" fill="#76C92E"/>
-<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="155.018" y="114">Performance</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="155.018" y="114">Performance</tspan></text>
 <rect x="260" y="90" width="100" height="40" rx="6" fill="#76C92E"/>
-<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="285.266" y="114">Outcome</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="285.266" y="114">Outcome</tspan></text>
 <rect x="20" y="136" width="100" height="60" rx="6" fill="#ECF7DF"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="37.2852" y="169.636">&#34;will my effort </tspan><tspan x="45.4199" y="181.636">succeed?&#34;</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="41.1621" y="157.636">Expectancy&#10;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="37.2852" y="169.636">&#34;will my effort </tspan><tspan x="45.4199" y="181.636">succeed?&#34;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="41.1621" y="157.636">Expectancy&#10;</tspan></text>
 <rect x="140" y="136" width="100" height="60" rx="6" fill="#ECF7DF"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="152.295" y="169.636">&#34;will success be </tspan><tspan x="162.983" y="181.636">rewarded?&#34;</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="152.48" y="157.636">Instrumentality&#10;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="152.295" y="169.636">&#34;will success be </tspan><tspan x="162.983" y="181.636">rewarded?&#34;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="152.48" y="157.636">Instrumentality&#10;</tspan></text>
 <rect x="260" y="136" width="100" height="60" rx="6" fill="#ECF7DF"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="276.094" y="169.636">&#34;do I value the </tspan><tspan x="288.999" y="181.636">reward?&#34;</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="290.278" y="157.636">Valence&#10;</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="47.6553" y="225.319">Motivation = Expectancy &#xd7; Instrumentality &#xd7; Valence</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="69.5264" y="244.455">Multiplicative: if any term is zero, motivation is zero</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="276.094" y="169.636">&#34;do I value the </tspan><tspan x="288.999" y="181.636">reward?&#34;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="290.278" y="157.636">Valence&#10;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="47.6553" y="225.319">Motivation = Expectancy &#xd7; Instrumentality &#xd7; Valence</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="69.5264" y="244.455">Multiplicative: if any term is zero, motivation is zero</tspan></text>
 <path d="M140.5 112L130.5 106.226L130.5 117.774L140.5 112ZM120 112L120 113L131.5 113L131.5 112L131.5 111L120 111L120 112Z" fill="black"/>
 <path d="M260.5 112L250.5 106.226L250.5 117.774L260.5 112ZM240 112L240 113L251.5 113L251.5 112L251.5 111L240 111L240 112Z" fill="black"/>
 </svg>

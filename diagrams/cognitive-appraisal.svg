@@ -1,17 +1,17 @@
 <svg viewBox="0 62 380 226" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="380" height="300" fill="white"/>
 <rect x="80" y="70" width="220" height="42" rx="6" fill="#FCF4D1"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="165.717" y="87.5">Situation</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="147.441" y="102.636">The demand itself</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="165.717" y="87.5">Situation</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="147.441" y="102.636">The demand itself</tspan></text>
 <rect x="80" y="126" width="220" height="42" rx="6" fill="#F9EFA0"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="141.939" y="143.5">Primary Appraisal</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="141.597" y="158.636">Threat or challenge?</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="141.939" y="143.5">Primary Appraisal</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="141.597" y="158.636">Threat or challenge?</tspan></text>
 <rect x="80" y="182" width="220" height="42" rx="6" fill="#F7EC83"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="133.856" y="199.5">Secondary Appraisal</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="162.217" y="214.636">Can I cope?</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="133.856" y="199.5">Secondary Appraisal</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="162.217" y="214.636">Can I cope?</tspan></text>
 <rect x="80" y="238" width="220" height="42" rx="6" fill="#F4EA66"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="132.755" y="255.5">Emotion &#38; Motivation</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="157.744" y="270.636">The response</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="132.755" y="255.5">Emotion &#38; Motivation</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="157.744" y="270.636">The response</tspan></text>
 <path d="M190 126L195.774 116L184.226 116L190 126ZM190 112L189 112L189 117L190 117L191 117L191 112L190 112Z" fill="black"/>
 <path d="M190 182L195.774 172L184.226 172L190 182ZM190 168L189 168L189 173L190 173L191 173L191 168L190 168Z" fill="black"/>
 <path d="M190 238L195.774 228L184.226 228L190 238ZM190 224L189 224L189 229L190 229L191 229L191 224L190 224Z" fill="black"/>

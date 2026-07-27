@@ -6,26 +6,26 @@
 <line x1="169.789" y1="143" x2="169.789" y2="197" stroke="#F37375" stroke-width="2"/>
 <line x1="296.134" y1="243.93" x2="169.134" y2="193.93" stroke="#F37375" stroke-width="2"/>
 <line x1="169.122" y1="243.993" x2="296.122" y2="192.074" stroke="#92A7D4" stroke-width="2"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="159.082" y="108.5">&#34;Why did I </tspan><tspan x="232" y="108.5"> or </tspan><tspan x="294.412" y="108.5">?&#34;</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="248.339" y="108.5">succeed</tspan></text>
-<text fill="#F37375" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="215.597" y="108.5">fail</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="67.0371" y="146.5">Locus</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="159.082" y="108.5">&#34;Why did I </tspan><tspan x="232" y="108.5"> or </tspan><tspan x="294.412" y="108.5">?&#34;</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="248.339" y="108.5">succeed</tspan></text>
+<text fill="#F37375" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="215.597" y="108.5">fail</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="67.0371" y="146.5">Locus</tspan></text>
 <rect x="110.5" y="126" width="118" height="34" rx="17" fill="#F9EFA0"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="139.48" y="146.636">Internal (me)</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="54.9307" y="196.5">Stability</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="23.3164" y="246.5">Controllability</tspan></text>
-<text fill="#92A7D4" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-style="italic" font-weight="bold" letter-spacing="0em"><tspan x="147.5" y="284.636">Try again</tspan></text>
-<text fill="#F37375" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-style="italic" font-weight="bold" letter-spacing="0em"><tspan x="280.271" y="284.636">Give up</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="139.48" y="146.636">Internal (me)</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="54.9307" y="196.5">Stability</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="23.3164" y="246.5">Controllability</tspan></text>
+<text fill="#92A7D4" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-style="italic" font-weight="bold" letter-spacing="0em"><tspan x="147.5" y="284.636">Try again</tspan></text>
+<text fill="#F37375" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-style="italic" font-weight="bold" letter-spacing="0em"><tspan x="280.271" y="284.636">Give up</tspan></text>
 <rect x="237.5" y="126" width="118" height="34" rx="17" fill="#F9EFA0"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="252.047" y="146.636">External (situation)</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="252.047" y="146.636">External (situation)</tspan></text>
 <rect x="110.5" y="176" width="118" height="34" rx="17" fill="#F9EFA0"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="117.791" y="196.636">Stable (won&#39;t change)</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="117.791" y="196.636">Stable (won&#39;t change)</tspan></text>
 <rect x="237.5" y="176" width="118" height="34" rx="17" fill="#F9EFA0"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="243.062" y="196.636">Unstable (can change)</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="243.062" y="196.636">Unstable (can change)</tspan></text>
 <rect x="110.5" y="226" width="118" height="34" rx="17" fill="#F9EFA0"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="140.984" y="246.636">Controllable</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="140.984" y="246.636">Controllable</tspan></text>
 <rect x="237.5" y="226" width="118" height="34" rx="17" fill="#F9EFA0"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="262.198" y="246.636">Uncontrollable</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="262.198" y="246.636">Uncontrollable</tspan></text>
 <path d="M169.5 274.459L175.274 264.459L163.726 264.459L169.5 274.459ZM169.5 260L168.5 260L168.5 265.459L169.5 265.459L170.5 265.459L170.5 260L169.5 260Z" fill="#92A7D4"/>
 <path d="M296.5 274.459L302.274 264.459L290.726 264.459L296.5 274.459ZM296.5 260L295.5 260L295.5 265.459L296.5 265.459L297.5 265.459L297.5 260L296.5 260Z" fill="#F37375"/>
 </svg>
