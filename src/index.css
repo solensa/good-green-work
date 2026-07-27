@@ -111,10 +111,10 @@ h1, h2, h3 {
   position: relative;
 }
 
-.quadrant-tl { background: var(--quad-yellow); }
-.quadrant-tr { background: var(--quad-green); }
-.quadrant-bl { background: var(--quad-orange); }
-.quadrant-br { background: var(--quad-dark-green); }
+.quadrant-tl { background: var(--quad-orange); }
+.quadrant-tr { background: var(--quad-dark-green); }
+.quadrant-bl { background: var(--quad-yellow); }
+.quadrant-br { background: var(--quad-green); }
 
 .quadrant-label {
   position: absolute;
@@ -311,11 +311,11 @@ h1, h2, h3 {
 }
 
 .details-section {
-  background: #f8fafc;
+  background: #ffffff;
   padding: 1.5rem 2rem;
   border-radius: 4px;
   box-shadow: none;
-  border: none;
+  border: 1px solid var(--border-color);
   margin-top: 4rem;
 }
 
@@ -439,4 +439,19 @@ h1, h2, h3 {
   .node-label-floating, .group-main-label {
     display: none;
   }
+}
+
+.theory-diagram {
+  display: block;
+  width: 100%;
+  max-width: 605px;
+  margin: 20px auto 14px;
+}
+
+.diagram-note {
+  font-style: italic;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 0.95rem;
+  margin: 0 0 0.5rem !important;
 }

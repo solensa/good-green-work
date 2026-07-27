@@ -1,0 +1,15 @@
+<svg viewBox="0 98 380 177" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="380" height="300" fill="white"/>
+<rect x="70.75" y="105.936" width="238.5" height="40.5" rx="5.25" fill="#FCF4D1"/>
+<rect x="70.75" y="105.936" width="238.5" height="40.5" rx="5.25" stroke="#F4EA66" stroke-width="1.5"/>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="83.9209" y="130.186">&#34;Do my actions change what happens?&#34;</tspan></text>
+<line x1="190.393" y1="147.825" x2="99.3931" y2="203.825" stroke="#404040" stroke-width="1.5"/>
+<line x1="190.396" y1="146.549" x2="280.396" y2="202.549" stroke="#404040" stroke-width="1.5"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="108.584" y="176.822">yes</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="250.035" y="176.822">no, repeatedly</tspan></text>
+<rect x="40" y="203.186" width="120" height="64" rx="6" fill="#F4EA66"/>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="67.4951" y="226.822">Engagement,&#10;</tspan><tspan x="60.2686" y="238.822">proactive effort,&#10;</tspan><tspan x="70.8887" y="250.822">persistence</tspan></text>
+<rect x="220" y="203.186" width="120" height="64" rx="6" fill="#EDEDED"/>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="247.446" y="226.822">Passivity and&#10;</tspan><tspan x="241.733" y="238.822">disengagement&#10;</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-style="italic" letter-spacing="0em"><tspan x="230.337" y="250.822">learned helplessness</tspan></text>
+</svg>

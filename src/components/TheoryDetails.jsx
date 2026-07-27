@@ -1,4 +1,5 @@
 import React from 'react';
+import { diagramNotes } from '../data/diagramNotes';
 
 const TheoryDetails = ({ theory }) => {
   if (!theory) {
@@ -19,6 +20,14 @@ const TheoryDetails = ({ theory }) => {
           <span className="micro-group-tag">{theory.microGroup}</span>
         </div>
       )}
+      {diagramNotes[theory.id] && (
+        <p className="diagram-note">{diagramNotes[theory.id]}</p>
+      )}
+      <img
+        className="theory-diagram"
+        src={`${import.meta.env.BASE_URL}diagrams/${theory.id}.svg`}
+        alt={`${theory.name} diagram`}
+      />
       <p>{theory.description}</p>
     </div>
   );
