@@ -25,6 +25,12 @@
   background: #ffffff;
 }
 
+.flow-comparator-group {
+  border-top: 1px solid var(--border-color);
+  padding-top: 0.6rem;
+  margin-top: 0.25rem;
+}
+
 .flow-filter-group {
   display: flex;
   align-items: baseline;
