@@ -69,7 +69,7 @@ export const theories = [
     name: "Job Characteristics Model",
     category: "Job Conditions & Work Factors",
     points: [{ id: "jcm_p", label: "Job Characteristics Model", x: 68, y: 45, dx: 13.5, dy: -0.4 }],
-    description: "Hackman and Oldham's Job Characteristics Model is the better-evidenced descendant of Herzberg's job enrichment, and the founding statement that job features are designable and have psychological consequences. Five core characteristics drive work outcomes: skill variety, task identity, task significance, autonomy, and feedback.\n\nCrucially, these features do not act directly. They work through three critical psychological states: experienced meaningfulness of the work, experienced responsibility for outcomes, and knowledge of the actual results. Only when a job is felt through these states does it produce internal work motivation, satisfaction and performance. Growth-need strength was proposed as a moderator, so that enriched work motivates most strongly those who want to grow, though this moderating effect has fared less well empirically than the model's core structure.\n\nIts placement here is deliberate: the model's outcome is internal work motivation, which makes it a motivation theory whose subject happens to be the job, rather than a theory of how work produces wellbeing or strain."
+    description: "Hackman and Oldham's Job Characteristics Model is the better-evidenced descendant of Herzberg's job enrichment, and the founding statement that job features are designable and have psychological consequences. Five core characteristics drive work outcomes: skill variety, task identity, task significance, autonomy, and feedback.\n\nCrucially, these features do not act directly. They work through three critical psychological states: experienced meaningfulness of the work, experienced responsibility for outcomes, and knowledge of the actual results. Only when a job is felt through these states does it produce internal work motivation, satisfaction and performance. Growth-need strength was proposed as a moderator, so that enriched work motivates most strongly those who want to grow; the moderator has attracted more mixed support than the model's core structure.\n\nIt remains plotted here because its outcome is internal work motivation, which makes it a motivation theory. The report treats it in Chapter 3, where the work itself is the subject."
   },
   {
     id: "sdt",
@@ -170,7 +170,7 @@ export const theories = [
     name: "Growth vs Fixed Mindset",
     category: "Internal Appraisal Mechanisms",
     points: [{ id: "gm", label: "Growth vs fixed mindset", x: 18, y: 70, dx: -7.777, dy: -5.034 }],
-    description: "Carol Dweck's Mindset Theory distinguishes between two core beliefs individuals hold about their own intelligence and abilities. Individuals with a 'Fixed Mindset' believe that traits are innate, static givens that cannot be changed. They often avoid challenges, give up easily, and feel threatened by the success of others.\n\nIn contrast, individuals with a 'Growth Mindset' believe that abilities and intelligence can be continually developed through dedication, hard work, and good strategy. This view creates a love of learning and a resilience that is essential for great accomplishment, leading them to embrace challenges, persist through setbacks, and see effort as the path to mastery."
+    description: "Carol Dweck's Mindset Theory distinguishes between two core beliefs individuals hold about their own intelligence and abilities. Individuals with a 'Fixed Mindset' believe that traits are innate, static givens that cannot be changed. They often avoid challenges, give up easily, and feel threatened by the success of others.\n\nIn contrast, individuals with a 'Growth Mindset' believe that abilities and intelligence can be continually developed through dedication, hard work, and good strategy. This view creates a love of learning and a resilience that is essential for great accomplishment, leading them to embrace challenges, persist through setbacks, and see effort as the path to mastery.\n\nThis entry subsumes mastery beliefs: the conviction that ability can improve, which is the growth mindset stated in the vocabulary of the self-efficacy literature."
   },
   {
     id: "attribution",
@@ -204,7 +204,7 @@ export const theories = [
     macroGroup: 3,
     microGroup: "Values & Identity",
     name: "Task-Value",
-    category: "Internal Appraisal Mechanisms",
+    category: "Human Needs & Motives",
     points: [{ id: "tv", label: "Values / task-value", x: 28, y: 45, dx: 12.585, dy: 1.848 }],
     description: "Task-Value is a central component of Expectancy-Value Theory (Eccles and Wigfield), focusing on the extent to which an individual values the activity or task itself. While 'expectancy' asks 'Can I do this task?', 'value' asks 'Do I want to do this task, and why?'\n\nTask value is typically broken down into four components: Intrinsic value (the enjoyment gained from doing the task), Utility value (how the task fits into future plans or goals), Attainment value (the importance of doing well on the task for one's identity), and Cost (the negative aspects of engaging in the task, such as time, effort, or emotional toll). High motivation requires high task value."
   },
@@ -213,8 +213,8 @@ export const theories = [
     macroGroup: 3,
     microGroup: "Values & Identity",
     name: "Identity / Self-Concept",
-    category: "Internal Appraisal Mechanisms",
-    points: [{ id: "id", label: "Identity / self-concept", x: 22, y: 52, dx: -8.013, dy: 5.955 }],
+    category: "Human Needs & Motives",
+    points: [{ id: "id", label: "Identity / self-concept", x: 22, y: 48, dx: -8.013, dy: 5.955 }],
     description: "Identity and Self-Concept refer to the integration of how a person fundamentally views themselves—their traits, beliefs, social roles, and values. It acts as a powerful motivational compass, heavily influencing what tasks individuals choose to engage with and how persistently they pursue them.\n\nPeople are highly motivated to behave in ways that are congruent with their self-concept. If an individual identifies strongly as a 'problem solver' or a 'creative professional', they will naturally be drawn to and intrinsically motivated by tasks that validate and reinforce that specific identity, while resisting tasks that conflict with it."
   },
   {
@@ -222,7 +222,7 @@ export const theories = [
     macroGroup: 3,
     microGroup: "Values & Identity",
     name: "Possible Selves",
-    category: "Internal Appraisal Mechanisms",
+    category: "Human Needs & Motives",
     points: [{ id: "ps", label: "Possible selves", x: 24, y: 45, dx: -14.027, dy: 1.78 }],
     description: "Possible Selves, a concept developed by Hazel Markus and Paula Nurius, refers to the cognitive representations of what individuals could become, what they would strongly like to become (ideal selves), and what they are desperately afraid of becoming (feared selves).\n\nThese future-oriented self-representations act as highly specific, emotionally charged psychological incentives for future behavior. A vivid, clearly defined 'possible self' provides a powerful motivational pull towards actions that bridge the gap between the current self and the desired future self, while simultaneously driving avoidance behaviors away from the feared self."
   },
@@ -231,7 +231,7 @@ export const theories = [
     macroGroup: 3,
     microGroup: "Tension & Orientation",
     name: "Promotion vs Prevention",
-    category: "Internal Appraisal Mechanisms",
+    category: "Human Needs & Motives",
     points: [{ id: "pp", label: "Promotion vs prevention focus", x: 32, y: 38, dx: -20.460, dy: 1.43 }],
     description: "Regulatory Focus Theory, developed by E. Tory Higgins, identifies two distinct motivational approaches that individuals use to achieve their goals. A 'Promotion Focus' is concerned with playing to win—seeking advancement, growth, and accomplishment. It is driven by the pursuit of ideals and maximizes gains.\n\nA 'Prevention Focus', on the other hand, is concerned with playing not to lose—seeking security, safety, and fulfilling duties. It is driven by 'oughts' and minimizes losses. Individuals experience 'regulatory fit' (and significantly higher motivation) when the strategy they are asked to use matches their underlying regulatory focus."
   },
@@ -240,9 +240,18 @@ export const theories = [
     macroGroup: 3,
     microGroup: "Tension & Orientation",
     name: "Cognitive Dissonance",
-    category: "Internal Appraisal Mechanisms",
+    category: "Human Needs & Motives",
     points: [{ id: "cd", label: "Cognitive dissonance", x: 30, y: 32, dx: -19.607, dy: 0.091 }],
     description: "Cognitive Dissonance, a theory proposed by Leon Festinger, describes the significant mental discomfort (dissonance) experienced by someone who holds two or more conflicting beliefs, values, or behaviors. This psychological tension is inherently aversive.\n\nTo resolve this discomfort, individuals are powerfully motivated to change their attitudes, alter their behaviors, or rationalize the inconsistency to restore psychological harmony (consonance). In motivational contexts, inducing cognitive dissonance can be a potent tool to drive behavioral change, as people naturally seek to align their actions with their self-stated beliefs to avoid feelings of hypocrisy."
+  },
+  {
+    id: "reactance",
+    macroGroup: 3,
+    microGroup: "Tension & Orientation",
+    name: "Reactance",
+    category: "Human Needs & Motives",
+    points: [{ id: "rx", label: "Reactance", x: 32, y: 37, dx: -9.3, dy: -1.4 }],
+    description: "Jack Brehm's reactance theory holds that people value their freedom to choose, and that when a specific freedom is threatened or removed they experience an unpleasant motivational arousal directed at restoring it.\n\nThe restored freedom is often pursued directly, by doing the very thing that has been discouraged, and the discouraged option becomes more attractive simply for having been forbidden. Persuasion that is too heavy-handed can therefore reverse its intended effect, an outcome known as the boomerang effect.\n\nAt work the triggers are structural rather than personal: surveillance, micromanagement, and procedures written as instructions with no discretion. This makes reactance directly relevant to workplace monitoring, including the acceptability of wearable measurement itself."
   },
   {
     id: "arousal",
