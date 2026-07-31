@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import wheelIcon from '../assets/wheel.svg';
 import mapIcon from '../assets/map.svg';
-import mechanismIcon from '../assets/mechanism.svg';
+import booksIcon from '../assets/books.svg';
 import peopleIcon from '../assets/person3.svg';
 import './Sidebar.css';
 
@@ -34,7 +34,7 @@ const Sidebar = () => {
           to="/understanding-good-work"
           className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
         >
-          <span className="nav-icon"><img src={mechanismIcon} alt="Mechanisms" style={{ width: '100%', height: '100%' }} /></span>
+          <span className="nav-icon"><img src={booksIcon} alt="Books" style={{ width: '100%', height: '100%' }} /></span>
           Understanding Good Work
         </NavLink>
 
