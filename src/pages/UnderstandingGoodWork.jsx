@@ -110,8 +110,8 @@ const UnderstandingGoodWork = () => {
   const close = useCallback(() => setSelected(null), []);
 
   return (
-    <div className="ugw-page">
-      <header className="ugw-header">
+    <div className="page-container fade-in">
+      <header className="page-header">
         <h1>Understanding Good Work</h1>
         <p>
           The mechanisms that link work to the people who do it, from the features of a

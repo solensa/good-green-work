@@ -1,18 +1,5 @@
-.ugw-page {
-  padding: 32px 40px 60px;
-  max-width: 1600px;
-}
-
-.ugw-header h1 {
-  margin: 0 0 6px;
-  color: var(--text-primary);
-}
-
-.ugw-header p {
-  margin: 0 0 28px;
-  max-width: 760px;
-  color: var(--text-secondary);
-}
+/* Page frame and header come from .page-container / .page-header in index.css,
+   shared with every other page. */
 
 /* ---- groups and grid ---- */
 
@@ -200,9 +187,6 @@
 }
 
 @media (max-width: 640px) {
-  .ugw-page {
-    padding: 24px 20px 48px;
-  }
   .ugw-modal {
     padding: 26px 20px 28px;
   }
