@@ -1,0 +1,28 @@
+<svg viewBox="0 88 380 198" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif}</style>
+<rect width="380" height="300" rx="10" fill="white"/>
+<text fill="black" font-size="15" font-weight="bold"><tspan x="20" y="28.4545">Allostatic Load</tspan></text>
+<circle cx="24" cy="44" r="4" fill="#339E8C"/>
+<text fill="#6B6B6B" font-size="10"><tspan x="32" y="47.6364">McEwen, 1998</tspan></text>
+<text fill="#6B6B6B" font-size="9" font-style="italic"><tspan x="20" y="62.7727">The body&#x2019;s in-the-moment protection mechanism in response to stress </tspan><tspan x="20" y="73.7727">damages you over time. Load accumulates when the response fails to switch </tspan><tspan x="20" y="84.7727">off, adapt, or scale.</tspan></text>
+<path d="M20 165.643H170" stroke="#CCCCCC"/>
+<text fill="#21293B" font-size="9" font-weight="bold"><tspan x="20" y="130.416">1 &#xb7; Repeated Hits</tspan></text>
+<path d="M20 165.643L34 139.643L46 165.643L60 139.643L72 165.643L86 139.643L98 165.643L112 139.643L124 165.643L138 139.643L150 165.643" stroke="#C75247" stroke-width="1.5"/>
+<text fill="#6B6B6B" font-size="9"><tspan x="20" y="178.416">Every stress response is normal; </tspan><tspan x="20" y="189.416">there are simply too many.</tspan></text>
+<path d="M190 165.643H340" stroke="#CCCCCC"/>
+<text fill="#21293B" font-size="9" font-weight="bold"><tspan x="190" y="130.416">2 &#xb7; No habituation</tspan></text>
+<path d="M190 165.643L206 139.643L224 165.643L242 139.643L260 165.643L278 139.643L296 165.643L314 139.643L332 165.643" stroke="#C75247" stroke-width="1.5"/>
+<text fill="#6B6B6B" font-size="9"><tspan x="190" y="178.416">The same demand should cost less </tspan><tspan x="190" y="189.416">stress each time, and does not.</tspan></text>
+<path d="M20 250.134H170" stroke="#CCCCCC"/>
+<text fill="#21293B" font-size="9" font-weight="bold"><tspan x="20" y="214.907">3 &#xb7; No shut-off</tspan></text>
+<path d="M20 250.134L38 222.134L60 228.134L100 230.134L140 232.134L170 234.134" stroke="#C75247" stroke-width="1.5"/>
+<text fill="#6B6B6B" font-size="9"><tspan x="20" y="262.907">The stress response outlasts the </tspan><tspan x="20" y="273.907">demand.</tspan></text>
+<path d="M190 250.134H340" stroke="#CCCCCC"/>
+<text fill="#21293B" font-size="9" font-weight="bold"><tspan x="190" y="214.907">4 &#xb7; Inadequate response</tspan></text>
+<path d="M190 250.134L208 242.134L230 250.134H250L268 243.134L290 250.134H340" stroke="#C75247" stroke-width="1.5"/>
+<text fill="#6B6B6B" font-size="9"><tspan x="190" y="262.907">Too weak a stress response here, </tspan><tspan x="190" y="273.907">so other systems overcompensate.</tspan></text>
+<path d="M190 250.134L208 224.134L230 250.134" stroke="#339E8C" stroke-width="1.2" stroke-dasharray="3 2"/>
+<text fill="#339E8C" font-size="9"><tspan x="20" y="104.594">Dashed line: the healthy response</tspan></text>
+<path d="M20 165.73L42 139.73L64 165.73H116L138 139.73L160 165.73" stroke="#339E8C" stroke-width="1.2" stroke-dasharray="3 2"/>
+<path d="M190 165.73L206 139.73L224 165.73L242 149.73L260 165.73L278 158.73L296 165.73L314 163.73L332 165.73" stroke="#339E8C" stroke-width="1.2" stroke-dasharray="3 2"/>
+</svg>

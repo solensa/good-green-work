@@ -1,0 +1,26 @@
+<svg viewBox="0 88 380 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif}</style>
+<rect width="380" height="300" rx="10" fill="white"/>
+<text fill="black" font-size="15" font-weight="bold"><tspan x="20" y="28.4545">Person-Environment Fit (P-E Fit)</tspan></text>
+<circle cx="24" cy="44" r="4" fill="#EDAE40"/>
+<text fill="#6B6B6B" font-size="10"><tspan x="32" y="47.6364">Kristof-Brown, Zimmerman and Johnson, 2005</tspan></text>
+<text fill="#595959" font-size="9" font-style="italic"><tspan x="20" y="62.7727">Outcomes follow the match between person and environment, in three </tspan><tspan x="20" y="73.7727">currencies.</tspan></text>
+<rect x="26" y="98" width="124" height="44" rx="4" fill="#C7EDE6"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="70.7964" y="119">Needs</tspan></text>
+<text fill="black" font-size="7.5"><tspan x="31.5" y="129.727">what I want / what the job gives</tspan></text>
+<rect x="230" y="98" width="124" height="44" rx="4" fill="#9EDED1"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="268.641" y="124">Supplies</tspan></text>
+<path d="M150.205 118.805C149.932 119.078 149.932 119.522 150.205 119.795L154.66 124.25C154.933 124.523 155.376 124.523 155.65 124.25C155.923 123.976 155.923 123.533 155.65 123.26L151.69 119.3L155.65 115.34C155.923 115.067 155.923 114.624 155.65 114.35C155.376 114.077 154.933 114.077 154.66 114.35L150.205 118.805ZM229.795 119.795C230.068 119.522 230.068 119.078 229.795 118.805L225.34 114.35C225.067 114.077 224.624 114.077 224.35 114.35C224.077 114.624 224.077 115.067 224.35 115.34L228.31 119.3L224.35 123.26C224.077 123.533 224.077 123.976 224.35 124.25C224.624 124.523 225.067 124.523 225.34 124.25L229.795 119.795ZM150.7 119.3L150.7 120L229.3 120L229.3 119.3L229.3 118.6L150.7 118.6L150.7 119.3Z" fill="#4D4D4D"/>
+<rect x="26" y="154" width="124" height="44" rx="4" fill="#C7EDE6"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="65.8818" y="175">Abilities</tspan></text>
+<text fill="black" font-size="7.5"><tspan x="39.5" y="185.727">what I can do / what it asks</tspan></text>
+<rect x="230" y="154" width="124" height="44" rx="4" fill="#9EDED1"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="266.498" y="180">Demands</tspan></text>
+<path d="M150.205 174.805C149.932 175.078 149.932 175.522 150.205 175.795L154.66 180.25C154.933 180.523 155.376 180.523 155.65 180.25C155.923 179.976 155.923 179.533 155.65 179.26L151.69 175.3L155.65 171.34C155.923 171.067 155.923 170.624 155.65 170.35C155.376 170.077 154.933 170.077 154.66 170.35L150.205 174.805ZM229.795 175.795C230.068 175.522 230.068 175.078 229.795 174.805L225.34 170.35C225.067 170.077 224.624 170.077 224.35 170.35C224.077 170.624 224.077 171.067 224.35 171.34L228.31 175.3L224.35 179.26C224.077 179.533 224.077 179.976 224.35 180.25C224.624 180.523 225.067 180.523 225.34 180.25L229.795 175.795ZM150.7 175.3V176H229.3V175.3V174.6H150.7V175.3Z" fill="#4D4D4D"/>
+<rect x="26" y="210" width="124" height="44" rx="4" fill="#C7EDE6"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="69.7329" y="231">Values</tspan></text>
+<text fill="black" font-size="7.5"><tspan x="32.5" y="241.727">what I believe / what it rewards</tspan></text>
+<rect x="230" y="210" width="124" height="44" rx="4" fill="#9EDED1"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="271.987" y="236">Culture</tspan></text>
+<path d="M150.205 230.805C149.932 231.078 149.932 231.522 150.205 231.795L154.66 236.25C154.933 236.523 155.376 236.523 155.65 236.25C155.923 235.976 155.923 235.533 155.65 235.26L151.69 231.3L155.65 227.34C155.923 227.067 155.923 226.624 155.65 226.35C155.376 226.077 154.933 226.077 154.66 226.35L150.205 230.805ZM229.795 231.795C230.068 231.522 230.068 231.078 229.795 230.805L225.34 226.35C225.067 226.077 224.624 226.077 224.35 226.35C224.077 226.624 224.077 227.067 224.35 227.34L228.31 231.3L224.35 235.26C224.077 235.533 224.077 235.976 224.35 236.25C224.624 236.523 225.067 236.523 225.34 236.25L229.795 231.795ZM150.7 231.3V232H229.3V231.3V230.6H150.7V231.3Z" fill="#4D4D4D"/>
+</svg>

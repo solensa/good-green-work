@@ -1,0 +1,22 @@
+<svg viewBox="0 78 380 206" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif}</style>
+<rect width="380" height="300" rx="10" fill="white"/>
+<text fill="black" font-size="15" font-weight="bold"><tspan x="20" y="28.4545">Capability Approach</tspan></text>
+<circle cx="24" cy="44" r="4" fill="#EDAE40"/>
+<text fill="#6B6B6B" font-size="10"><tspan x="32" y="47.6364">Sen, 1985</tspan></text>
+<text fill="#595959" font-size="9" font-style="italic"><tspan x="20" y="62.7727">Step-by-step process of how a person converts raw resources into personal </tspan><tspan x="20" y="73.7727">well-being and freedom.</tspan></text>
+<rect x="55" y="88" width="270" height="30" rx="4" fill="#C7EDE6"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="161.555" y="101.5">Resources</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="151.301" y="112.909">wage &#xb7; rota &#xb7; training</tspan></text>
+<rect x="55" y="126.875" width="270" height="30" rx="4" fill="#F4F4F4"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="138.609" y="140.375">Conversion factors</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="129.445" y="151.784">personal &#xb7; social &#xb7; environmental</tspan></text>
+<rect x="55" y="165.75" width="270" height="30" rx="4" fill="#9EDED1"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="157.999" y="179.25">Capabilities</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="163.965" y="190.659">real freedoms</tspan></text>
+<rect x="55" y="204.625" width="270" height="30" rx="4" fill="#339E8C"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="154.98" y="218.125">Functionings</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="141.727" y="229.534">achieved doings &#38; beings</tspan></text>
+<rect x="55" y="243.5" width="270" height="30" rx="4" fill="#339E8C"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="163.155" y="262.5">Wellbeing</tspan></text>
+</svg>
