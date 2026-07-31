@@ -10,26 +10,34 @@ const Sidebar = () => {
   return (
     <aside className="sidebar">
       <div className="sidebar-header">
-        <h2>Good Green Work</h2>
+        <h2>Build Better Work</h2>
       </div>
       <nav className="sidebar-nav">
-        <NavLink 
-          to="/" 
+        <NavLink
+          to="/"
           className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
           end
         >
           <span className="nav-icon"><img src={wheelIcon} alt="Wheel" style={{ width: '100%', height: '100%' }} /></span>
           The Strategic Flywheel
         </NavLink>
-        
-        <NavLink 
-          to="/motivation-map" 
+
+        <NavLink
+          to="/workforce-flows"
+          className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
+        >
+          <span className="nav-icon"><img src={peopleIcon} alt="Workforce" style={{ width: '100%', height: '100%' }} /></span>
+          The Skills Crisis
+        </NavLink>
+
+        <NavLink
+          to="/motivation-map"
           className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
         >
           <span className="nav-icon"><img src={mapIcon} alt="Map" style={{ width: '100%', height: '100%' }} /></span>
-          Motivational Theories Map
+          Understanding People
         </NavLink>
-        
+
         <NavLink
           to="/understanding-good-work"
           className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
@@ -43,15 +51,7 @@ const Sidebar = () => {
           className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
         >
           <span className="nav-icon"><img src={mapIcon} alt="Mechanism" style={{ width: '100%', height: '100%' }} /></span>
-          Conceptual Map
-        </NavLink>
-
-        <NavLink
-          to="/workforce-flows"
-          className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
-        >
-          <span className="nav-icon"><img src={peopleIcon} alt="Workforce" style={{ width: '100%', height: '100%' }} /></span>
-          Workforce Population
+          Model of Work
         </NavLink>
       </nav>
     </aside>
