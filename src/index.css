@@ -209,8 +209,21 @@ h1, h2, h3 {
   white-space: nowrap;
 }
 
-.axis-label-left { top: 50%; left: 0; transform: translate(-120%, -50%); }
-.axis-label-right { top: 50%; right: 0; transform: translate(120%, -50%); }
+/* Rotated so they cost the page ~24px of side room rather than their full
+   text width, which no longer fits beside the diagram. Mirrored about the
+   diagram: the left label reads bottom-to-top, the right one top-to-bottom. */
+.axis-label-left {
+  top: 50%;
+  left: 0;
+  margin-left: -20px;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+.axis-label-right {
+  top: 50%;
+  right: 0;
+  margin-right: -20px;
+  transform: translate(50%, -50%) rotate(90deg);
+}
 .axis-label-top { left: 50%; top: 0; transform: translate(-50%, -150%); }
 .axis-label-bottom { left: 50%; bottom: 0; transform: translate(-50%, 150%); }
 
