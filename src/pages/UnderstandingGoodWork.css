@@ -182,10 +182,15 @@
   margin: 22px 0 6px;
 }
 
+/* Diagram text is authored in the 380-unit Figma viewBox, so the render width
+   sets its apparent size. 620px scales a 9px label to match the body copy;
+   letting the SVG fill the modal would render it half again too large. */
 .ugw-modal-diagram svg {
   display: block;
   width: 100%;
+  max-width: 620px;
   height: auto;
+  margin: 0 auto;
 }
 
 .ugw-modal-body p {
