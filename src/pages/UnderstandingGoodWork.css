@@ -1,0 +1,204 @@
+.ugw-page {
+  padding: 32px 40px 60px;
+  max-width: 1600px;
+}
+
+.ugw-header h1 {
+  margin: 0 0 6px;
+  color: var(--text-primary);
+}
+
+.ugw-header p {
+  margin: 0 0 28px;
+  max-width: 760px;
+  color: var(--text-secondary);
+}
+
+/* ---- groups and grid ---- */
+
+.ugw-group {
+  margin-bottom: 36px;
+}
+
+.ugw-group-head h2 {
+  margin: 0 0 2px;
+  font-size: 1.05rem;
+  color: var(--text-primary);
+}
+
+.ugw-group-head p {
+  margin: 0 0 14px;
+  max-width: 760px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.ugw-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.ugw-card {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  text-align: left;
+  font: inherit;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.ugw-card:hover {
+  border-color: var(--text-secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+}
+
+.ugw-card:focus-visible {
+  outline: 2px solid var(--quad-dark-green);
+  outline-offset: 2px;
+}
+
+.ugw-card-diagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 9;
+  padding: 10px 12px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.ugw-card-diagram svg {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.ugw-card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 16px 14px;
+  border-top: 1px solid var(--border-color);
+}
+
+.ugw-card-name {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.ugw-card-byline {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.ugw-diagram-missing {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  background: #f8fafc;
+}
+
+/* ---- modal ---- */
+
+.ugw-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 20px;
+  overflow-y: auto;
+  background: rgba(15, 23, 42, 0.45);
+}
+
+.ugw-modal {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  padding: 30px 34px 34px;
+  border-radius: 12px;
+  background: var(--bg-color);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.28);
+}
+
+.ugw-close {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: var(--text-secondary);
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.ugw-close:hover {
+  background: #f1f5f9;
+  color: var(--text-primary);
+}
+
+.ugw-tag {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 3px 10px;
+  font-size: 0.72rem;
+  border-radius: 999px;
+  background: #f1f5f9;
+  color: var(--text-secondary);
+}
+
+.ugw-modal-head h2 {
+  margin: 0 0 2px;
+  font-size: 1.3rem;
+  color: var(--text-primary);
+}
+
+.ugw-byline {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.ugw-claim {
+  margin: 12px 0 0;
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+.ugw-modal-diagram {
+  margin: 22px 0 6px;
+}
+
+.ugw-modal-diagram svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.ugw-modal-body p {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+
+@media (max-width: 640px) {
+  .ugw-page {
+    padding: 24px 20px 48px;
+  }
+  .ugw-modal {
+    padding: 26px 20px 28px;
+  }
+}

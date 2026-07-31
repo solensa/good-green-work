@@ -1,0 +1,33 @@
+<svg viewBox="0 94 380 189" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif}</style>
+<rect width="380" height="300" rx="10" fill="white"/>
+<text fill="black" font-size="15" font-weight="bold"><tspan x="20" y="28.4545">Affective Events Theory (AET)</tspan></text>
+<circle cx="24" cy="44" r="4" fill="#EDAE40"/>
+<text fill="#6B6B6B" font-size="10"><tspan x="32" y="47.6364">Weiss and Cropanzano, 1996</tspan></text>
+<text fill="#595959" font-size="9" font-style="italic"><tspan x="20" y="62.7727">Conditions do not cause feelings directly; they change how often the events </tspan><tspan x="20" y="73.7727">that cause feelings occur. Events arrive several times a day, so without </tspan><tspan x="20" y="84.7727">sampling at a similar frequency, only a lagging, accumulated view is measured.</tspan></text>
+<g opacity="0.85">
+<rect x="115.5" y="104" width="150" height="32" rx="4" fill="#F1F1F1"/>
+<text fill="black" font-size="11" font-weight="bold"><tspan x="151.506" y="118.5">Work Features</tspan></text>
+<text fill="black" font-size="8"><tspan x="153.449" y="129.909">conditions &#38; design</tspan></text>
+</g>
+<g opacity="0.85">
+<rect x="115.5" y="140.91" width="150" height="34" rx="4" fill="#F1CF54"/>
+<text fill="black" font-size="11" font-weight="bold"><tspan x="157.425" y="156.41">Daily Events</tspan></text>
+<text fill="black" font-size="8"><tspan x="159.922" y="167.819">hassles &#38; uplifts</tspan></text>
+</g>
+<g opacity="0.85">
+<rect x="115.5" y="179.82" width="150" height="34" rx="4" fill="#F9ECB4"/>
+<text fill="black" font-size="11" font-weight="bold"><tspan x="135.564" y="195.32">Emotional Reactions</tspan></text>
+<text fill="black" font-size="8"><tspan x="163.309" y="206.73">in the moment</tspan></text>
+</g>
+<rect x="20.5" y="241.295" width="150" height="32" rx="4" fill="#9EDED1"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="30.1016" y="255.795">Affect-Driven Behaviour</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="63.2305" y="267.204">effort, help, error</tspan></text>
+<rect x="200.5" y="241.295" width="150" height="32" rx="4" fill="#9EDED1"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="250.369" y="255.795">Attitudes</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="227.848" y="267.204">satisfaction, commitment</tspan></text>
+<line x1="191" y1="213.82" x2="191" y2="225.481" stroke="black"/>
+<line x1="275.5" y1="225.981" x2="97.2415" y2="225.981" stroke="black"/>
+<path d="M96.8879 241.648C97.0832 241.844 97.3997 241.844 97.595 241.648L100.777 238.466C100.972 238.271 100.972 237.955 100.777 237.759C100.582 237.564 100.265 237.564 100.07 237.759L97.2415 240.588L94.413 237.759C94.2178 237.564 93.9012 237.564 93.7059 237.759C93.5107 237.955 93.5107 238.271 93.7059 238.466L96.8879 241.648ZM97.2415 225.481L96.7415 225.481L96.7415 241.295L97.2415 241.295L97.7415 241.295L97.7415 225.481L97.2415 225.481Z" fill="black"/>
+<path d="M275.146 241.648C275.342 241.844 275.658 241.844 275.854 241.648L279.036 238.466C279.231 238.271 279.231 237.955 279.036 237.759C278.84 237.564 278.524 237.564 278.328 237.759L275.5 240.588L272.672 237.759C272.476 237.564 272.16 237.564 271.964 237.759C271.769 237.955 271.769 238.271 271.964 238.466L275.146 241.648ZM275.5 225.481L275 225.481L275 241.295L275.5 241.295L276 241.295L276 225.481L275.5 225.481Z" fill="black"/>
+</svg>

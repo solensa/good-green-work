@@ -6,6 +6,7 @@ import MotivationMap from './pages/MotivationMap';
 import StrategicFlywheel from './pages/StrategicFlywheel';
 import GoodWorkMechanism from './pages/GoodWorkMechanism';
 import WorkforceFlows from './pages/WorkforceFlows';
+import UnderstandingGoodWork from './pages/UnderstandingGoodWork';
 import './index.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Routes>
               <Route path="/" element={<StrategicFlywheel />} />
               <Route path="/motivation-map" element={<MotivationMap />} />
+              <Route path="/understanding-good-work" element={<UnderstandingGoodWork />} />
               <Route path="/mechanism" element={<GoodWorkMechanism />} />
               <Route path="/workforce-flows" element={<WorkforceFlows />} />
               <Route path="*" element={<Navigate to="/" replace />} />

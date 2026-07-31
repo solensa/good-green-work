@@ -31,11 +31,19 @@ const Sidebar = () => {
         </NavLink>
         
         <NavLink
+          to="/understanding-good-work"
+          className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
+        >
+          <span className="nav-icon"><img src={mechanismIcon} alt="Mechanisms" style={{ width: '100%', height: '100%' }} /></span>
+          Understanding Good Work
+        </NavLink>
+
+        <NavLink
           to="/mechanism"
           className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
         >
           <span className="nav-icon"><img src={mapIcon} alt="Mechanism" style={{ width: '100%', height: '100%' }} /></span>
-          Map of Good Work
+          Conceptual Map
         </NavLink>
 
         <NavLink

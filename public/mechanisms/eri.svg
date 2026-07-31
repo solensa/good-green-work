@@ -1,0 +1,18 @@
+<svg viewBox="0 85 380 163" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif}</style>
+<rect width="380" height="300" rx="10" fill="white"/>
+<text fill="black" font-size="15" font-weight="bold"><tspan x="20" y="28.4545">Effort-Reward Imbalance (ERI)</tspan></text>
+<circle cx="24" cy="44" r="4" fill="#EDAE40"/>
+<text fill="#6B6B6B" font-size="10"><tspan x="32" y="47.6364">Siegrist, 1996</tspan></text>
+<text fill="#595959" font-size="9" font-style="italic"><tspan x="20" y="62.7727">Chronic mismatch between effort spent and reward returned predicts strain </tspan><tspan x="20" y="73.7727">and, over years, cardiovascular disease.</tspan></text>
+<rect x="40" y="95" width="120" height="64" rx="4" fill="#339E8C"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="84.585" y="120.5">Effort</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="56.2852" y="131.909">demands &#xb7; obligations &#xb7; </tspan><tspan x="68.2188" y="141.909">overcommitment</tspan></text>
+<rect x="220" y="95" width="120" height="64" rx="4" fill="#9EDED1"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="259.697" y="120.5">Reward</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="235.156" y="131.909">pay &#xb7; esteem &#xb7; security &#xb7; </tspan><tspan x="261.16" y="141.909">prospects</tspan></text>
+<path d="M160.205 125.805C159.932 126.078 159.932 126.522 160.205 126.795L164.66 131.25C164.933 131.523 165.376 131.523 165.65 131.25C165.923 130.976 165.923 130.533 165.65 130.26L161.69 126.3L165.65 122.34C165.923 122.067 165.923 121.624 165.65 121.35C165.376 121.077 164.933 121.077 164.66 121.35L160.205 125.805ZM219.795 126.795C220.068 126.522 220.068 126.078 219.795 125.805L215.34 121.35C215.067 121.077 214.624 121.077 214.35 121.35C214.077 121.624 214.077 122.067 214.35 122.34L218.31 126.3L214.35 130.26C214.077 130.533 214.077 130.976 214.35 131.25C214.624 131.523 215.067 131.523 215.34 131.25L219.795 126.795ZM160.7 126.3V127H219.3V126.3V125.6H160.7V126.3Z" fill="#4D4D4D"/>
+<rect x="110" y="204" width="160" height="34" rx="4" fill="#ED998C"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="139.829" y="225">Imbalance = Strain</tspan></text>
+<path d="M191.195 127.205C190.922 126.932 190.478 126.932 190.205 127.205L185.75 131.66C185.477 131.933 185.477 132.376 185.75 132.65C186.024 132.923 186.467 132.923 186.74 132.65L190.7 128.69L194.66 132.65C194.933 132.923 195.376 132.923 195.65 132.65C195.923 132.376 195.923 131.933 195.65 131.66L191.195 127.205ZM190.205 203.795C190.478 204.068 190.922 204.068 191.195 203.795L195.65 199.34C195.923 199.067 195.923 198.624 195.65 198.35C195.376 198.077 194.933 198.077 194.66 198.35L190.7 202.31L186.74 198.35C186.467 198.077 186.024 198.077 185.75 198.35C185.477 198.624 185.477 199.067 185.75 199.34L190.205 203.795ZM190.7 127.7L190 127.7L190 203.3L190.7 203.3L191.4 203.3L191.4 127.7L190.7 127.7Z" fill="#4D4D4D"/>
+</svg>

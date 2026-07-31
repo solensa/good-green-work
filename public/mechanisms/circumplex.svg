@@ -1,0 +1,25 @@
+<svg viewBox="0 85 380 189" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif}</style>
+<rect width="380" height="300" rx="10" fill="white"/>
+<text fill="black" font-size="15" font-weight="bold"><tspan x="20" y="28.4545">Circumplex Model of Affect</tspan></text>
+<circle cx="24" cy="44" r="4" fill="#339E8C"/>
+<text fill="#6B6B6B" font-size="10"><tspan x="32" y="47.6364">Russell, 1980</tspan></text>
+<text fill="#6B6B6B" font-size="9" font-style="italic"><tspan x="20" y="62.7727">Feeling has two independent dimensions: how aroused / activated a person is, </tspan><tspan x="20" y="73.7727">and whether what they feel is pleasant: its valence.</tspan></text>
+<rect x="46" y="114" width="134" height="68" rx="4" fill="#ED998C"/>
+<text fill="#21293B" font-size="8.5" font-weight="bold"><tspan x="100.387" y="139.091">Tense</tspan></text>
+<text fill="#21293B" font-size="7.5"><tspan x="86.2483" y="152.227">stress &#xb7; anxiety&#10;</tspan><tspan x="81.2495" y="161.227">frustration &#xb7; anger</tspan></text>
+<rect x="184" y="114" width="134" height="68" rx="4" fill="#339E8C"/>
+<text fill="white" font-size="8.5" font-weight="bold"><tspan x="232.668" y="139.091">Engaged</tspan></text>
+<text fill="white" font-size="7.5"><tspan x="217.21" y="152.227">vigour &#xb7; excitement&#10;</tspan><tspan x="221.399" y="161.227">absorption &#xb7; flow</tspan></text>
+<rect x="46" y="186" width="134" height="68" rx="4" fill="#FAEBB8"/>
+<text fill="#21293B" font-size="8.5" font-weight="bold"><tspan x="105.239" y="211.091">Flat</tspan></text>
+<text fill="#21293B" font-size="7.5"><tspan x="81.645" y="224.227">boredom &#xb7; fatigue&#10;</tspan><tspan x="98.4871" y="233.227">lethargy</tspan></text>
+<rect x="184" y="186" width="134" height="68" rx="4" fill="#9EDED1"/>
+<text fill="#21293B" font-size="8.5" font-weight="bold"><tspan x="240.304" y="211.091">Calm</tspan></text>
+<text fill="#21293B" font-size="7.5"><tspan x="233.66" y="224.227">relaxation&#10;</tspan><tspan x="223.904" y="233.227">recovery &#xb7; ease</tspan></text>
+<path d="M326.424 184.424C326.659 184.19 326.659 183.81 326.424 183.576L322.606 179.757C322.372 179.523 321.992 179.523 321.757 179.757C321.523 179.992 321.523 180.372 321.757 180.606L325.151 184L321.757 187.394C321.523 187.628 321.523 188.008 321.757 188.243C321.992 188.477 322.372 188.477 322.606 188.243L326.424 184.424ZM38 184V184.6H326V184V183.4H38V184Z" fill="#6B6B6B"/>
+<path d="M182.424 103.576C182.19 103.341 181.81 103.341 181.576 103.576L177.757 107.394C177.523 107.628 177.523 108.008 177.757 108.243C177.992 108.477 178.372 108.477 178.606 108.243L182 104.849L185.394 108.243C185.628 108.477 186.008 108.477 186.243 108.243C186.477 108.008 186.477 107.628 186.243 107.394L182.424 103.576ZM182 264H182.6V104H182H181.4V264H182Z" fill="#6B6B6B"/>
+<text fill="#6B6B6B" font-size="7.5" font-weight="bold"><tspan x="330" y="177.227">Valence&#10;</tspan></text>
+<text fill="#6B6B6B" font-size="7.5" font-style="italic"><tspan x="330" y="186.227">(bad &#x2192; &#10;</tspan><tspan x="330" y="195.227">good)</tspan></text>
+<text fill="#6B6B6B" font-size="7.5" font-weight="bold"><tspan x="167.82" y="100.227">Arousal</tspan></text>
+</svg>

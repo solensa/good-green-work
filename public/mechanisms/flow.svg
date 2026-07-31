@@ -1,0 +1,22 @@
+<svg viewBox="0 75 380 219" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif}</style>
+<rect width="380" height="300" rx="10" fill="white"/>
+<text fill="black" font-size="15" font-weight="bold"><tspan x="20" y="28.4545">Flow</tspan></text>
+<circle cx="24" cy="44" r="4" fill="#EDAE40"/>
+<text fill="#6B6B6B" font-size="10"><tspan x="32" y="47.6364">Csikszentmihalyi, 1975</tspan></text>
+<text fill="#595959" font-size="9" font-style="italic"><tspan x="20" y="62.7727">Total absorption when challenge and skill are both high and matched.</tspan></text>
+<rect x="103" y="90" width="180" height="180" rx="4" fill="#F4F4F4"/>
+<text transform="translate(121.233 137.996) rotate(-45)" fill="#21293B" font-size="9"><tspan x="0" y="8.77273">Anxiety</tspan></text>
+<text transform="translate(129.718 146.481) rotate(-45)" fill="#595959" font-size="8"><tspan x="0" y="7.90909">challenge &#62; skill</tspan></text>
+<text transform="translate(207.5 236.569) rotate(-45)" fill="#21293B" font-size="9"><tspan x="0" y="8.77273">Boredom</tspan></text>
+<text transform="translate(215.985 245.054) rotate(-45)" fill="#595959" font-size="8"><tspan x="0" y="7.90909">skill &#62; challenge</tspan></text>
+<path opacity="0.45" d="M163.651 208.38L244.32 89.9453C244.32 89.9453 279.162 89.9454 279.679 89.9454C280.196 89.9454 281.532 90.4247 282.261 91.4881C282.99 92.5516 283.109 93.3947 283.109 93.9151C283.109 94.4355 283.114 128.418 283.114 128.418L163.651 208.38Z" fill="#339E8C"/>
+<text fill="black" font-size="9" font-weight="bold"><tspan x="183.754" y="283.912">Skill </tspan></text>
+<text transform="matrix(0 -1 1 0 86 203.552)" fill="black" font-size="9" font-weight="bold"><tspan x="0" y="8.77273">Challenge</tspan></text>
+<line x1="102.646" y1="269.646" x2="192.646" y2="179.646" stroke="#C5C5C5"/>
+<text transform="translate(111 251.957) rotate(-45)" fill="#21293B" font-size="9"><tspan x="0.417969" y="8.77273">Apathy</tspan></text>
+<text transform="translate(217.895 137.766) rotate(-45)" fill="#21293B" font-size="10" font-weight="bold"><tspan x="0" y="9.63636">Flow </tspan></text>
+<text transform="translate(225.733 146.481) rotate(-45)" fill="#21293B" font-size="8"><tspan x="0" y="7.90909">challenge &#x2248; skill</tspan></text>
+<path d="M287.049 270.34C287.245 270.145 287.245 269.828 287.049 269.633L283.867 266.451C283.672 266.256 283.356 266.256 283.16 266.451C282.965 266.646 282.965 266.963 283.16 267.158L285.989 269.986L283.16 272.815C282.965 273.01 282.965 273.327 283.16 273.522C283.356 273.717 283.672 273.717 283.867 273.522L287.049 270.34ZM103 269.986L103 270.486L286.696 270.486L286.696 269.986L286.696 269.486L103 269.486L103 269.986Z" fill="black"/>
+<path d="M103.354 85.6368C103.158 85.4415 102.842 85.4415 102.646 85.6368L99.4645 88.8188C99.2692 89.0141 99.2692 89.3306 99.4645 89.5259C99.6597 89.7211 99.9763 89.7211 100.172 89.5259L103 86.6975L105.828 89.5259C106.024 89.7211 106.34 89.7211 106.536 89.5259C106.731 89.3306 106.731 89.0141 106.536 88.8188L103.354 85.6368ZM103 269.986L103.5 269.986L103.5 85.9904L103 85.9904L102.5 85.9904L102.5 269.986L103 269.986Z" fill="black"/>
+</svg>

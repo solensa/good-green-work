@@ -1,0 +1,24 @@
+<svg viewBox="0 91 380 174" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif}</style>
+<rect width="380" height="300" rx="10" fill="white"/>
+<text fill="black" font-size="15" font-weight="bold"><tspan x="20" y="28.4545">Job Demands-Resources Model (JD-R)</tspan></text>
+<circle cx="24" cy="44" r="4" fill="#339E8C"/>
+<text fill="#6B6B6B" font-size="10"><tspan x="32" y="47.6364">Demerouti, Bakker, Nachreiner and Schaufeli, 2001</tspan></text>
+<text fill="#595959" font-size="9" font-style="italic"><tspan x="20" y="62.7727">Every job feature drains (demand) or fuels (resource). Resources also buffer </tspan><tspan x="20" y="73.7727">demands.</tspan></text>
+<rect x="20" y="205" width="150" height="50" rx="4" fill="#ED998C"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="58.2188" y="228.5">Job Demands</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="54.293" y="239.909">workload &#xb7; physicality</tspan></text>
+<rect x="20" y="101" width="150" height="50" rx="4" fill="#9EDED1"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="55.2754" y="124.5">Job Resources</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="29.2266" y="135.909">support &#xb7; autonomy &#xb7; kit &#xb7; feedback</tspan></text>
+<rect x="208" y="205" width="150" height="50" rx="4" fill="#ED998C"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="240.633" y="228.5">Strain / Burnout</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="239.285" y="239.909">health impairment path</tspan></text>
+<rect x="208" y="101" width="150" height="50" rx="4" fill="#339E8C"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="248.91" y="124.5">Engagement</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="250.309" y="135.909">motivational path</tspan></text>
+<path d="M93.9757 204.824C94.2101 205.059 94.5899 205.059 94.8243 204.824L98.6426 201.006C98.877 200.772 98.877 200.392 98.6426 200.157C98.4083 199.923 98.0284 199.923 97.7941 200.157L94.4 203.551L91.0059 200.157C90.7716 199.923 90.3917 199.923 90.1574 200.157C89.923 200.392 89.923 200.772 90.1574 201.006L93.9757 204.824ZM94.8243 151.176C94.5899 150.941 94.2101 150.941 93.9757 151.176L90.1574 154.994C89.923 155.228 89.923 155.608 90.1574 155.843C90.3917 156.077 90.7716 156.077 91.0059 155.843L94.4 152.449L97.7941 155.843C98.0284 156.077 98.4083 156.077 98.6426 155.843C98.877 155.608 98.877 155.228 98.6426 154.994L94.8243 151.176ZM94.4 204.4L95 204.4L95 202.514L94.4 202.514L93.8 202.514L93.8 204.4L94.4 204.4ZM94.4 199.686L95 199.686L95 195.914L94.4 195.914L93.8 195.914L93.8 199.686L94.4 199.686ZM94.4 193.086L95 193.086L95 189.314L94.4 189.314L93.8 189.314L93.8 193.086L94.4 193.086ZM94.4 186.486L95 186.486L95 182.714L94.4 182.714L93.8 182.714L93.8 186.486L94.4 186.486ZM94.4 179.886L95 179.886L95 176.114L94.4 176.114L93.8 176.114L93.8 179.886L94.4 179.886ZM94.4 173.286L95 173.286L95 169.514L94.4 169.514L93.8 169.514L93.8 173.286L94.4 173.286ZM94.4 166.686L95 166.686L95 162.914L94.4 162.914L93.8 162.914L93.8 166.686L94.4 166.686ZM94.4 160.086L95 160.086L95 156.314L94.4 156.314L93.8 156.314L93.8 160.086L94.4 160.086ZM94.4 153.486L95 153.486L95 151.6L94.4 151.6L93.8 151.6L93.8 153.486L94.4 153.486Z" fill="#595959"/>
+<text fill="#595959" font-size="7.5"><tspan x="99.76" y="176.227">Resources </tspan><tspan x="99.76" y="185.227">buffer demands</tspan></text>
+<path d="M208.53 128.53C208.823 128.237 208.823 127.763 208.53 127.47L203.757 122.697C203.464 122.404 202.99 122.404 202.697 122.697C202.404 122.99 202.404 123.464 202.697 123.757L206.939 128L202.697 132.243C202.404 132.536 202.404 133.01 202.697 133.303C202.99 133.596 203.464 133.596 203.757 133.303L208.53 128.53ZM170 128L170 128.75L208 128.75L208 128L208 127.25L170 127.25L170 128Z" fill="#595959"/>
+<path d="M208.53 232.53C208.823 232.237 208.823 231.763 208.53 231.47L203.757 226.697C203.464 226.404 202.99 226.404 202.697 226.697C202.404 226.99 202.404 227.464 202.697 227.757L206.939 232L202.697 236.243C202.404 236.536 202.404 237.01 202.697 237.303C202.99 237.596 203.464 237.596 203.757 237.303L208.53 232.53ZM170 232L170 232.75L208 232.75L208 232L208 231.25L170 231.25L170 232Z" fill="#595959"/>
+</svg>

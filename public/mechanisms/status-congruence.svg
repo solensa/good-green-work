@@ -1,0 +1,30 @@
+<svg viewBox="0 78 380 207" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif}</style>
+<rect width="380" height="300" rx="10" fill="white"/>
+<text fill="black" font-size="15" font-weight="bold"><tspan x="20" y="28.4545">Status Congruence</tspan></text>
+<circle cx="24" cy="44" r="4" fill="#EDAE40"/>
+<text fill="#6B6B6B" font-size="10"><tspan x="32" y="47.6364">Loughlin and Murray, 2013</tspan></text>
+<text fill="#6B6B6B" font-size="9" font-style="italic"><tspan x="20" y="62.7727">The worker-work employment status match.</tspan></text>
+<rect x="26.2148" y="88" width="150" height="50" rx="4" fill="#C7EDE6"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="57.4727" y="111.5">Preferred status</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="43.1211" y="122.909">The contract the worker wants</tspan></text>
+<rect x="204.215" y="88" width="150" height="50" rx="4" fill="#9EDED1"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="243.427" y="111.5">Actual status</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="210.734" y="122.909">Full-time &#xb7; Part-time &#xb7; Self-employed</tspan></text>
+<rect x="26" y="207.747" width="150" height="50" rx="4" fill="#76C92E"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="72.0713" y="231.247">Congruent</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="67.8086" y="242.656">Higher job quality</tspan></text>
+<rect x="204" y="207.747" width="150" height="50" rx="4" fill="#ED998C"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="246.016" y="231.247">Incongruent</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="246.781" y="242.656">Lower job quality</tspan></text>
+<text fill="#21293B" font-size="8.5" font-weight="bold"><tspan x="200.135" y="273.122">Up to 40% of workers are incongruent.</tspan></text>
+<path d="M175.54 113.54C175.287 113.794 175.287 114.206 175.54 114.46L179.677 118.596C179.931 118.85 180.342 118.85 180.596 118.596C180.85 118.342 180.85 117.931 180.596 117.677L176.919 114L180.596 110.323C180.85 110.069 180.85 109.658 180.596 109.404C180.342 109.15 179.931 109.15 179.677 109.404L175.54 113.54ZM204.46 114.46C204.713 114.206 204.713 113.794 204.46 113.54L200.323 109.404C200.069 109.15 199.658 109.15 199.404 109.404C199.15 109.658 199.15 110.069 199.404 110.323L203.081 114L199.404 117.677C199.15 117.931 199.15 118.342 199.404 118.596C199.658 118.85 200.069 118.85 200.323 118.596L204.46 114.46ZM176 114V114.65H204V114V113.35H176V114Z" fill="#4D4D4D"/>
+<path d="M190 176.886V177.536H190.65V176.886H190ZM100 176.886V176.236H99.35V176.886H100ZM99.5404 207.667C99.7942 207.921 100.206 207.921 100.46 207.667L104.596 203.531C104.85 203.277 104.85 202.865 104.596 202.612C104.342 202.358 103.931 202.358 103.677 202.612L100 206.289L96.323 202.612C96.0692 202.358 95.6576 202.358 95.4038 202.612C95.15 202.865 95.15 203.277 95.4038 203.531L99.5404 207.667ZM190 166.886H189.35V176.886H190H190.65V166.886H190ZM190 176.886V176.236H100V176.886V177.536H190V176.886ZM100 176.886H99.35V207.208H100H100.65V176.886H100Z" fill="#4D4D4D"/>
+<path d="M190 176.886H189.35V177.536H190V176.886ZM280 176.886H280.65V176.236H280V176.886ZM279.54 208.207C279.794 208.46 280.206 208.46 280.46 208.207L284.596 204.07C284.85 203.816 284.85 203.405 284.596 203.151C284.342 202.897 283.931 202.897 283.677 203.151L280 206.828L276.323 203.151C276.069 202.897 275.658 202.897 275.404 203.151C275.15 203.405 275.15 203.816 275.404 204.07L279.54 208.207ZM190 113.78H189.35V176.886H190H190.65V113.78H190ZM190 176.886V177.536H280V176.886V176.236H190V176.886ZM280 176.886H279.35V207.747H280H280.65V176.886H280Z" fill="#4D4D4D"/>
+<rect x="168.315" y="145.583" width="43.3694" height="10.4165" fill="white"/>
+<text fill="#6B6B6B" font-size="8" font-style="italic"><tspan x="176.348" y="153.194">Match?</tspan></text>
+<rect x="120.711" y="165.318" width="43.3694" height="10.4165" fill="white"/>
+<text fill="#6B6B6B" font-size="8" font-style="italic"><tspan x="135.834" y="172.909">Yes</tspan></text>
+<rect x="218.1" y="165.318" width="43.3694" height="10.4165" fill="white"/>
+<text fill="#6B6B6B" font-size="8" font-style="italic"><tspan x="234.602" y="172.909">No</tspan></text>
+</svg>

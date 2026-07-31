@@ -1,0 +1,19 @@
+<svg viewBox="0 83 380 198" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif}</style>
+<rect width="380" height="300" rx="10" fill="white"/>
+<path opacity="0.3" d="M168.096 126.693C168.096 126.693 182.598 117.98 192.883 117.78C203.758 117.568 219.27 126.693 219.27 126.693V255.791H168.096V126.693Z" fill="#339E8C"/>
+<text fill="black" font-size="15" font-weight="bold"><tspan x="20" y="28.4545">The Inverted-U</tspan></text>
+<circle cx="24" cy="44" r="4" fill="#339E8C"/>
+<text fill="#6B6B6B" font-size="10"><tspan x="32" y="47.6364">Yerkes and Dodson, 1908</tspan></text>
+<text fill="#6B6B6B" font-size="9" font-style="italic"><tspan x="20" y="62.7727">Performance rises with activation to an optimum and falls away beyond it. Work </tspan><tspan x="20" y="73.7727">fails at either extreme.</tspan></text>
+<path d="M344.424 256.175C344.659 255.941 344.659 255.561 344.424 255.326L340.606 251.508C340.372 251.274 339.992 251.274 339.757 251.508C339.523 251.742 339.523 252.122 339.757 252.357L343.151 255.751L339.757 259.145C339.523 259.379 339.523 259.759 339.757 259.993C339.992 260.228 340.372 260.228 340.606 259.993L344.424 256.175ZM54 255.751V256.351H344V255.751V255.151H54V255.751Z" fill="#6B6B6B"/>
+<path d="M54.4243 93.5757C54.1899 93.3414 53.8101 93.3414 53.5757 93.5757L49.7574 97.3941C49.523 97.6284 49.523 98.0083 49.7574 98.2426C49.9917 98.477 50.3716 98.477 50.6059 98.2426L54 94.8485L57.3941 98.2426C57.6284 98.477 58.0083 98.477 58.2426 98.2426C58.477 98.0083 58.477 97.6284 58.2426 97.3941L54.4243 93.5757ZM54 255.751H54.6V94H54H53.4V255.751H54Z" fill="#6B6B6B"/>
+<path d="M64 246.452C141.237 246.452 132.356 118 194 118C255.644 118 252.149 246.452 324 246.452" stroke="#C75247" stroke-width="2"/>
+<path d="M168.181 255.752L168.181 126.693" stroke="#339E8C" stroke-dasharray="3 3"/>
+<path d="M219.27 255.752L219.27 126.693" stroke="#339E8C" stroke-dasharray="3 3"/>
+<text fill="#339E8C" font-size="9" font-weight="bold"><tspan x="173.649" y="190.995">Optimum</tspan></text>
+<text fill="#ED998C" font-size="9"><tspan x="106.733" y="236.483">Unproductive:&#10;</tspan><tspan x="117.539" y="247.483">boredom</tspan></text>
+<text fill="#ED998C" font-size="9"><tspan x="224.475" y="236.483">Unproductive:&#10;</tspan><tspan x="238.947" y="247.483">anxiety</tspan></text>
+<text fill="#6B6B6B" font-size="9" font-weight="bold"><tspan x="172.984" y="270.564">Arousal</tspan></text>
+<text transform="matrix(0 -1 1 0 36.8584 219.875)" fill="#6B6B6B" font-size="9" font-weight="bold"><tspan x="16.3784" y="8.77273">Performance</tspan></text>
+</svg>
