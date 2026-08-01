@@ -1,0 +1,22 @@
+<svg viewBox="0 94 380 187" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif}</style>
+<rect width="380" height="300" rx="10" fill="white"/>
+<text fill="black" font-size="15" font-weight="bold"><tspan x="20" y="30.4545">Reactance</tspan></text>
+<circle cx="24" cy="46" r="4" fill="#EDAE40"/>
+<text fill="#6B6B6B" font-size="10"><tspan x="34" y="49.6364">Brehm, 1966</tspan></text>
+<text fill="#595959" font-size="9" font-style="italic"><tspan x="20" y="66.7727">When a freedom feels threatened, motivation arises to restore it - sometimes </tspan><tspan x="20" y="77.7727">by doing exactly the discouraged thing.</tspan></text>
+<rect x="90" y="104" width="200" height="42" rx="4" fill="#F5EB8C"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="135.167" y="123.5">Freedom threatened</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="105.137" y="134.909">surveillance &#xb7; micromanagement &#xb7; &#34;you must&#34;</tspan></text>
+<rect x="90" y="153" width="200" height="42" rx="4" fill="#F5EB8C"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="161.469" y="172.5">Reactance</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="132.539" y="183.909">arousal to restore the freedom</tspan></text>
+<rect x="20" y="229" width="160" height="42" rx="4" fill="#F4EA66"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="70.8027" y="243.5">Push-back</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="23.7461" y="254.909"> Behavioural restoration: defiance, doing </tspan><tspan x="63.6719" y="264.909">the forbidden thing</tspan></text>
+<rect x="200" y="229" width="160" height="42" rx="4" fill="#F4EA66"/>
+<text fill="#21293B" font-size="11" font-weight="bold"><tspan x="249.057" y="243.5">Boomerang</tspan></text>
+<text fill="#21293B" font-size="8"><tspan x="201.254" y="254.909"> Attitudinal restoration: mentally opposing </tspan><tspan x="254.031" y="264.909">the command</tspan></text>
+<path d="M99.4076 228.732C99.2599 229.06 99.4053 229.445 99.7325 229.592L105.064 232C105.391 232.148 105.776 232.002 105.924 231.675C106.072 231.348 105.926 230.963 105.599 230.815L100.86 228.675L103 223.936C103.148 223.609 103.002 223.224 102.675 223.076C102.348 222.928 101.963 223.074 101.815 223.401L99.4076 228.732ZM190 195L189.77 194.392L99.7703 228.392L100 229L100.23 229.608L190.23 195.608L190 195Z" fill="#4D4D4D"/>
+<path d="M280.592 228.732C280.74 229.06 280.595 229.445 280.268 229.592L274.936 232C274.609 232.148 274.224 232.002 274.076 231.675C273.928 231.348 274.074 230.963 274.401 230.815L279.14 228.675L277 223.936C276.852 223.609 276.998 223.224 277.325 223.076C277.652 222.928 278.037 223.074 278.185 223.401L280.592 228.732ZM190 195L190.23 194.392L280.23 228.392L280 229L279.77 229.608L189.77 195.608L190 195Z" fill="#4D4D4D"/>
+</svg>

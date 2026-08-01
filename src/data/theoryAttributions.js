@@ -26,5 +26,6 @@ export const theoryAttributions = {
   "possible-selves": "Hazel Markus & Paula Nurius, 1986",
   "promotion-prevention": "E. Tory Higgins, 1997",
   "dissonance": "Leon Festinger, 1957",
+  "reactance": "Jack Brehm, 1966",
   "arousal": "Robert Thayer, 1989"
 };

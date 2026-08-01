@@ -15,6 +15,7 @@ export const diagramNotes = {
   "perceived-control": "Actions that change outcomes sustain effort; the repeated absence of outcomes teaches helplessness.",
   "possible-selves": "Vivid images of who one could be, act as an incentive or deterrent to actions.",
   "promotion-prevention": "Though neither is better; motivation peaks on \"regulatory fit\" - when the task's framing matches the person's focus.",
+  "reactance": "The two restorations are alternatives, not stages: where push-back is too costly, the freedom is restored in attitude alone.",
   "reinforcement": "Extinction is the fifth case - the consequence stops following the behaviour, and it fades.",
   "self-efficacy": "4 sources build the belief → the belief drives behaviour.",
   "self-regulation": "The mechanism that turns goals into action. Overriding impulses draws on a depletable resource.",
