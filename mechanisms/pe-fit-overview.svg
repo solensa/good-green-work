@@ -1,0 +1,62 @@
+<svg viewBox="0 0 603 331" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif}</style>
+<g clip-path="url(#clip0_2728_857)">
+<rect width="603" height="331" fill="white"/>
+<rect x="0.5" y="0.5" width="189" height="329" rx="4.5" stroke="#1E283C" stroke-dasharray="4 3"/>
+<text fill="#422C07" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="bold" letter-spacing="0em"><tspan x="61.6191" y="21.8636">The Person</tspan></text>
+<text fill="#422C07" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="71.5527" y="36.6364">Chapter 2</tspan></text>
+<rect x="413.524" y="0.5" width="189" height="329" rx="4.5" stroke="#1E283C" stroke-dasharray="4 3"/>
+<text fill="#1E283C" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="bold" letter-spacing="0em"><tspan x="458.021" y="21.8636">The Environment</tspan></text>
+<text fill="#0A3E39" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="482.478" y="36.6364">Section 3.1</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="bold" letter-spacing="0em"><tspan x="294.523" y="22.3636">Fit</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="275.315" y="37.1364">Section 3.2</tspan></text>
+<rect x="14.9756" y="49.5" width="160" height="265" rx="5" fill="#EDAE40"/>
+<text fill="#422C07" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="bold" letter-spacing="0em"><tspan x="74.3213" y="71.3636">Person</tspan></text>
+<rect x="29.9756" y="84.5" width="130" height="30" rx="5" fill="#F8D857"/>
+<text fill="#422C07" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="bold" letter-spacing="0em"><tspan x="76.208" y="103.864">Needs</tspan></text>
+<rect x="29.9756" y="119.5" width="130" height="30" rx="5" fill="#F8D857"/>
+<text fill="#422C07" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="bold" letter-spacing="0em"><tspan x="70.8467" y="138.864">Abilities</tspan></text>
+<rect x="29.9756" y="154.5" width="130" height="30" rx="5" fill="#F8D857"/>
+<text fill="#422C07" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="bold" letter-spacing="0em"><tspan x="61.7236" y="173.864">Personality</tspan></text>
+<rect x="29.9756" y="189.5" width="130" height="30" rx="5" fill="#F8D857"/>
+<text fill="#422C07" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="bold" letter-spacing="0em"><tspan x="78.2471" y="208.864">Goals</tspan></text>
+<rect x="29.9756" y="224.5" width="130" height="30" rx="5" fill="#F8D857"/>
+<text fill="#422C07" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="bold" letter-spacing="0em"><tspan x="75.0479" y="243.864">Values</tspan></text>
+<text fill="#422C07" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="84.335" y="278.864">etc.</tspan></text>
+<path d="M428.508 297.789C428.762 297.535 428.762 297.123 428.508 296.869L424.372 292.733C424.118 292.479 423.706 292.479 423.453 292.733C423.199 292.987 423.199 293.398 423.453 293.652L427.13 297.329L423.453 301.006C423.199 301.26 423.199 301.671 423.453 301.925C423.706 302.179 424.118 302.179 424.372 301.925L428.508 297.789ZM174.54 296.869C174.287 297.123 174.287 297.535 174.54 297.789L178.677 301.925C178.931 302.179 179.342 302.179 179.596 301.925C179.85 301.671 179.85 301.26 179.596 301.006L175.919 297.329L179.596 293.652C179.85 293.398 179.85 292.987 179.596 292.733C179.342 292.479 178.931 292.479 178.677 292.733L174.54 296.869ZM428.049 297.329V296.679H175V297.329V297.979H428.049V297.329Z" fill="#595959"/>
+<path d="M428.508 208.021C428.762 207.767 428.762 207.355 428.508 207.101L424.372 202.965C424.118 202.711 423.706 202.711 423.453 202.965C423.199 203.219 423.199 203.63 423.453 203.884L427.13 207.561L423.453 211.238C423.199 211.492 423.199 211.903 423.453 212.157C423.706 212.411 424.118 212.411 424.372 212.157L428.508 208.021ZM174.54 207.101C174.287 207.355 174.287 207.767 174.54 208.021L178.677 212.157C178.931 212.411 179.342 212.411 179.596 212.157C179.85 211.903 179.85 211.492 179.596 211.238L175.919 207.561L179.596 203.884C179.85 203.63 179.85 203.219 179.596 202.965C179.342 202.711 178.931 202.711 178.677 202.965L174.54 207.101ZM428.049 207.561V206.911H175V207.561V208.211H428.049V207.561Z" fill="#595959"/>
+<path d="M428.508 67.4596C428.762 67.2058 428.762 66.7942 428.508 66.5404L424.372 62.4038C424.118 62.15 423.706 62.15 423.453 62.4038C423.199 62.6576 423.199 63.0692 423.453 63.323L427.13 67L423.453 70.677C423.199 70.9308 423.199 71.3424 423.453 71.5962C423.706 71.85 424.118 71.85 424.372 71.5962L428.508 67.4596ZM174.54 66.5404C174.287 66.7942 174.287 67.2058 174.54 67.4596L178.677 71.5962C178.931 71.85 179.342 71.85 179.596 71.5962C179.85 71.3424 179.85 70.9308 179.596 70.677L175.919 67L179.596 63.323C179.85 63.0692 179.85 62.6576 179.596 62.4038C179.342 62.15 178.931 62.15 178.677 62.4038L174.54 66.5404ZM428.049 67V66.35L175 66.35V67V67.65L428.049 67.65V67Z" fill="#595959"/>
+<rect x="428.049" y="49.9634" width="160" height="130" rx="5" fill="#72BAB6"/>
+<text fill="#0D3A37" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="bold" letter-spacing="0em"><tspan x="497.133" y="71.827">Job</tspan></text>
+<rect x="443.049" y="84.9634" width="130" height="30" rx="5" fill="#A0E6E0"/>
+<text fill="#0A3E39" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="bold" letter-spacing="0em"><tspan x="482.566" y="104.327">Supplies</tspan></text>
+<rect x="443.049" y="119.963" width="130" height="30" rx="5" fill="#A0E6E0"/>
+<text fill="#0A3E39" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="bold" letter-spacing="0em"><tspan x="480.229" y="139.327">Demands</tspan></text>
+<text fill="#0A3E39" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="497.408" y="166.827">etc.</tspan></text>
+<rect x="428.049" y="189.963" width="160" height="35" rx="5" fill="#72BAB6"/>
+<text fill="#0D3A37" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="bold" letter-spacing="0em"><tspan x="437.637" y="211.827">Supervisor/Subordinate</tspan></text>
+<rect x="428.049" y="234.963" width="160" height="35" rx="5" fill="#72BAB6"/>
+<text fill="#0D3A37" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="bold" letter-spacing="0em"><tspan x="489.973" y="256.827">Group</tspan></text>
+<rect x="428.049" y="279.963" width="160" height="35" rx="5" fill="#72BAB6"/>
+<text fill="#0D3A37" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="bold" letter-spacing="0em"><tspan x="470.18" y="301.827">Organisation</tspan></text>
+<path d="M428.508 253.154C428.762 252.901 428.762 252.489 428.508 252.235L424.372 248.099C424.118 247.845 423.706 247.845 423.453 248.099C423.199 248.352 423.199 248.764 423.453 249.018L427.13 252.695L423.453 256.372C423.199 256.626 423.199 257.037 423.453 257.291C423.706 257.545 424.118 257.545 424.372 257.291L428.508 253.154ZM174.54 252.235C174.287 252.489 174.287 252.901 174.54 253.154L178.677 257.291C178.931 257.545 179.342 257.545 179.596 257.291C179.85 257.037 179.85 256.626 179.596 256.372L175.919 252.695L179.596 249.018C179.85 248.764 179.85 248.352 179.596 248.099C179.342 247.845 178.931 247.845 178.677 248.099L174.54 252.235ZM428.049 252.695V252.045H175V252.695V253.345H428.049V252.695Z" fill="#595959"/>
+<path d="M443.508 99.9596C443.762 99.7058 443.762 99.2942 443.508 99.0404L439.372 94.9038C439.118 94.65 438.706 94.65 438.453 94.9038C438.199 95.1576 438.199 95.5692 438.453 95.823L442.13 99.5L438.453 103.177C438.199 103.431 438.199 103.842 438.453 104.096C438.706 104.35 439.118 104.35 439.372 104.096L443.508 99.9596ZM159.516 99.0404C159.262 99.2942 159.262 99.7058 159.516 99.9596L163.653 104.096C163.906 104.35 164.318 104.35 164.572 104.096C164.826 103.842 164.826 103.431 164.572 103.177L160.895 99.5L164.572 95.823C164.826 95.5692 164.826 95.1576 164.572 94.9038C164.318 94.65 163.906 94.65 163.653 94.9038L159.516 99.0404ZM443.049 99.5V98.85L159.976 98.85V99.5V100.15L443.049 100.15V99.5Z" fill="#FF7676"/>
+<path d="M443.508 134.96C443.762 134.706 443.762 134.294 443.508 134.04L439.372 129.904C439.118 129.65 438.706 129.65 438.453 129.904C438.199 130.158 438.199 130.569 438.453 130.823L442.13 134.5L438.453 138.177C438.199 138.431 438.199 138.842 438.453 139.096C438.706 139.35 439.118 139.35 439.372 139.096L443.508 134.96ZM159.516 134.04C159.262 134.294 159.262 134.706 159.516 134.96L163.653 139.096C163.906 139.35 164.318 139.35 164.572 139.096C164.826 138.842 164.826 138.431 164.572 138.177L160.895 134.5L164.572 130.823C164.826 130.569 164.826 130.158 164.572 129.904C164.318 129.65 163.906 129.65 163.653 129.904L159.516 134.04ZM443.049 134.5V133.85H159.976V134.5V135.15H443.049V134.5Z" fill="#FF7676"/>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="268.978" y="63.1319">Person-Job</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="212.175" y="202.461">Person-Supervisor/Subordinate</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="261.228" y="247.595">Person-Group</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" letter-spacing="0em"><tspan x="243.659" y="292.729">Person-Organisation</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-style="italic" letter-spacing="0em"><tspan x="245.909" y="109.868">e.g. Status Congruence</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-style="italic" letter-spacing="0em"><tspan x="280.323" y="145.673">e.g. Flow</tspan></text>
+<text fill="#C6321C" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-style="italic" letter-spacing="0em"><tspan x="263.8" y="94.6364">Needs-Supplies</tspan></text>
+<text fill="#C6321C" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-style="italic" letter-spacing="0em"><tspan x="258.326" y="130.442">Abilities-Demands</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-style="italic" letter-spacing="0em"><tspan x="229.376" y="310.928">e.g. Values, Goals Congruence&#10;</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-style="italic" letter-spacing="0em"><tspan x="200.499" y="266.6">e.g. Personality, Values, Goals Congruence&#10;</tspan></text>
+<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-style="italic" letter-spacing="0em"><tspan x="200.499" y="219.929">e.g. Personality, Values, Goals Congruence&#10;</tspan></text>
+</g>
+<defs>
+<clipPath id="clip0_2728_857">
+<rect width="603" height="331" fill="white"/>
+</clipPath>
+</defs>
+</svg>

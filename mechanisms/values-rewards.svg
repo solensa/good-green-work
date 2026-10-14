@@ -1,23 +1,20 @@
-<svg viewBox="0 85 380 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 85 380 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>text{font-family:Inter,Helvetica,Arial,sans-serif}</style>
 <g clip-path="url(#clip0_2193_2)">
 <rect width="380" height="300" rx="10" fill="white"/>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" letter-spacing="0em"><tspan x="20" y="28.4545">Work Values and Job Rewards</tspan></text>
-<circle cx="24" cy="44" r="4" fill="#EDAE40"/>
-<text fill="#6B6B6B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="0em"><tspan x="32" y="47.6364">Kalleberg, 1977</tspan></text>
-<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-style="italic" letter-spacing="0em"><tspan x="20" y="63.6364">Satisfaction tracks what the job gives and what the worker wanted, but </tspan><tspan x="20" y="75.6364">as two separate sums rather than as a match between them.</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="116.097" y="102.636">Wants little</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="234.687" y="102.636">Wants a lot</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="35.6981" y="144.636">Gets a lot</tspan></text>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="34.5165" y="210.636">Gets little</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="116.097" y="102.636">Wants little</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="234.687" y="102.636">Wants a lot</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="35.6981" y="144.636">Gets a lot</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="10" font-weight="bold" letter-spacing="0em"><tspan x="34.5165" y="210.636">Gets little</tspan></text>
 <rect x="88.8895" y="113" width="110" height="58" rx="6" fill="#339E8C"/>
-<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="105.577" y="145.5">Most satisfied</tspan></text>
+<text fill="white" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="105.577" y="145.5">Most satisfied</tspan></text>
 <rect x="207.39" y="113.5" width="109" height="57" rx="5.5" fill="#C7EDE6" stroke="#595959" stroke-dasharray="3 2"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="238.466" y="145.5">Middling</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="238.466" y="145.5">Middling</tspan></text>
 <rect x="89.3895" y="179.5" width="109" height="57" rx="5.5" fill="#C7EDE6" stroke="#595959" stroke-dasharray="3 2"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="120.466" y="211.5">Middling</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="120.466" y="211.5">Middling</tspan></text>
 <rect x="206.89" y="179" width="110" height="58" rx="6" fill="#ED998C"/>
-<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="222.385" y="211.5">Least satisfied</tspan></text>
-<text fill="#595959" style="white-space: pre" xml:space="preserve" font-family="Inter, Helvetica, Arial, sans-serif" font-size="8.5" font-style="italic" letter-spacing="0em"><tspan x="20" y="260.091">Dashed: wants and supply match. A fit model predicts these are the satisfied cells; </tspan><tspan x="20" y="270.091">the data give only middling.</tspan></text>
+<text fill="#21293B" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="11" font-weight="bold" letter-spacing="0em"><tspan x="222.385" y="211.5">Least satisfied</tspan></text>
+<text fill="#595959" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="8.5" font-style="italic" letter-spacing="0em"><tspan x="20" y="260.091">Dashed: wants and supply match. A fit model predicts these are the satisfied cells; </tspan><tspan x="20" y="270.091">the data give only middling.</tspan></text>
 </g>
 <defs>
 <clipPath id="clip0_2193_2">
